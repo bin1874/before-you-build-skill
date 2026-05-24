@@ -1,10 +1,26 @@
 # Before You Build Skill
 
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Release](https://img.shields.io/github/v/release/bin1874/before-you-build-skill?include_prereleases)](https://github.com/bin1874/before-you-build-skill/releases)
+[![GitHub stars](https://img.shields.io/github/stars/bin1874/before-you-build-skill)](https://github.com/bin1874/before-you-build-skill/stargazers)
+[![Website](https://img.shields.io/badge/website-beforeyoubuild.fyi-blue)](https://beforeyoubuild.fyi/en/skill)
+
 Don't ask AI to build it yet. Ask why it might fail first.
 
 Before You Build Skill is a lightweight open-source skill package for AI coding tools. Use it before starting a product, adding a feature, expanding scope, or asking an agent to implement an idea.
 
 It does not build your app. It makes the agent pause and review product risk first.
+
+## At A Glance
+
+| Field | Details |
+|---|---|
+| Best for | Product ideas, AI app ideas, SaaS ideas, side projects, feature requests, requirement changes |
+| Primary users | Indie hackers, solo founders, product engineers, AI builders, small teams |
+| Main output | A short pre-build risk review and verdict |
+| Verdicts | `Build small`, `Validate first`, `Pivot first`, `Don't build yet` |
+| API key | Not required for normal use |
+| Optional data | Before You Build Case Memory, only when the user allows it |
 
 ## Why This Exists
 
@@ -20,6 +36,16 @@ This skill adds a simple pre-build review step. Before the agent writes code, it
 - Teams using Codex, Claude Code, Cursor, OpenCode, OpenClaw, or similar coding agents.
 - Anyone tempted to ask an agent to implement before the demand risk is clear.
 
+## Compatible Tools
+
+| Tool | Recommended setup |
+|---|---|
+| Codex | Install the repository as a local skill folder when local skills are available. |
+| Claude Code | Use as a Claude Code skill or copy `SKILL.md` into project instructions. |
+| Cursor | Add `SKILL.md` as a project rule, then invoke it before implementation. |
+| OpenCode / OpenClaw | Add `SKILL.md` as a custom skill, rule, memory, or named instruction. |
+| Other agents | Paste the minimal prompt from [docs/INSTALL.md](docs/INSTALL.md). |
+
 ## What It Does
 
 - Reviews product and feature ideas before implementation.
@@ -27,6 +53,22 @@ This skill adds a simple pre-build review step. Before the agent writes code, it
 - Matches common failure patterns such as thin wrappers, low-frequency needs, platform dependency, and subscription mismatch.
 - Suggests the smallest useful validation step before coding.
 - Can optionally query Before You Build Case Memory for similar public cases.
+
+## How It Works
+
+```mermaid
+flowchart LR
+    A["User asks AI to build"] --> B["before-you-build review"]
+    B --> C["Clarify user, scene, problem"]
+    C --> D["Check demand, distribution, price, retention, trust"]
+    D --> E["Match likely failure patterns"]
+    E --> F["Recommend smallest validation step"]
+    F --> G{"Verdict"}
+    G --> H["Build small"]
+    G --> I["Validate first"]
+    G --> J["Pivot first"]
+    G --> K["Don't build yet"]
+```
 
 ## When To Use It
 
@@ -57,8 +99,12 @@ The agent should return a short reality check with a verdict before it starts im
 ```text
 .
 - SKILL.md
+- CONTRIBUTING.md
 - agents/
   - openai.yaml
+- .github/
+  - ISSUE_TEMPLATE/
+  - DISCUSSION_TEMPLATE/
 - references/
   - case-memory-api.md
   - evidence-check.md
@@ -84,6 +130,15 @@ For tools that do not support skill folders, open `SKILL.md` and paste the relev
 
 See [docs/INSTALL.md](docs/INSTALL.md) for tool-specific setup notes.
 
+## Install Paths
+
+| Setup | What to do |
+|---|---|
+| Full skill package | Clone this repo and add the whole folder to your tool's skill directory. |
+| Project-level rule | Copy `SKILL.md` into your project rules or instruction file. |
+| Prompt-only | Use the minimal prompt in [docs/INSTALL.md](docs/INSTALL.md#minimal-prompt-only-setup). |
+| Optional Case Memory | Use [references/case-memory-api.md](references/case-memory-api.md) only after user permission. |
+
 ## Basic Usage
 
 Start a request with:
@@ -106,6 +161,14 @@ The skill should return a short reality check, usually with:
 - likely failure patterns;
 - validation steps;
 - a recommendation: `Build small`, `Validate first`, `Pivot first`, or `Don't build yet`.
+
+## Examples
+
+| Scenario | Example |
+|---|---|
+| New product idea | [AI podcast-to-LinkedIn tool](examples/new-product-idea.md) |
+| Feature change | [Team workspaces and roles](examples/feature-change.md) |
+| Launched project | [AI resume checker with traffic but low payment](examples/launched-project.md) |
 
 ## Example
 
@@ -159,6 +222,19 @@ The endpoint is used to retrieve similar public product cases from [Before You B
 Do not send secrets, customer names, private financials, credentials, private user data, or unreleased confidential details to any remote endpoint.
 
 If Case Memory is used, send only a short idea summary and the minimum fields needed to find similar public cases.
+
+## Community
+
+Use GitHub issues or discussions for:
+
+- testing the skill against a real product or feature idea;
+- suggesting a failure pattern that should be added;
+- reporting confusing output from an agent;
+- asking for compatibility notes for another AI coding tool.
+
+Useful templates are included under `.github/ISSUE_TEMPLATE/` and `.github/DISCUSSION_TEMPLATE/`.
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request.
 
 ## Website
 

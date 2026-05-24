@@ -1,0 +1,54 @@
+name: Idea review request
+description: Ask the community to test the skill against a product or feature idea.
+title: "[Idea Review]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this when you want to test whether Before You Build gives a useful risk review for a real idea.
+        Do not include secrets, private customer names, credentials, or confidential financial data.
+  - type: textarea
+    id: idea
+    attributes:
+      label: What do you want to build?
+      description: Describe the product, feature, or requirement change in plain language.
+      placeholder: "I want to build..."
+    validations:
+      required: true
+  - type: input
+    id: target-user
+    attributes:
+      label: Who is it for?
+      placeholder: "Example: solo SaaS founders who publish weekly product updates"
+    validations:
+      required: true
+  - type: input
+    id: situation
+    attributes:
+      label: In what situation would they use it?
+      placeholder: "Example: after a customer interview, before writing a changelog"
+    validations:
+      required: true
+  - type: input
+    id: current-alternative
+    attributes:
+      label: What do they use today?
+      placeholder: "Example: Notion templates, ChatGPT prompts, manual spreadsheets"
+  - type: textarea
+    id: signal
+    attributes:
+      label: What evidence do you have?
+      description: Mention customer requests, searches, payments, waitlists, manual service results, or anything else you know.
+      placeholder: "Three users asked for it, but nobody has paid yet..."
+  - type: dropdown
+    id: stage
+    attributes:
+      label: Stage
+      options:
+        - New idea
+        - Feature request
+        - Requirement change
+        - Launched project
+        - Learning or portfolio project
+    validations:
+      required: true

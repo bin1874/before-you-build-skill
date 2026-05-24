@@ -1,0 +1,40 @@
+name: Agent compatibility
+description: Report whether the skill works or fails in a specific AI coding tool.
+title: "[Compatibility]: "
+body:
+  - type: dropdown
+    id: tool
+    attributes:
+      label: Tool
+      options:
+        - Codex
+        - Claude Code
+        - Cursor
+        - OpenCode
+        - OpenClaw
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Tool version or environment
+      placeholder: "Example: Codex desktop, Claude Code CLI, Cursor project rules"
+  - type: textarea
+    id: setup
+    attributes:
+      label: How did you install or invoke the skill?
+      placeholder: "Example: cloned the repo into ~/.codex/skills and asked 'use before-you-build...'"
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: What happened?
+      description: Include the useful or confusing parts of the agent output.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect instead?

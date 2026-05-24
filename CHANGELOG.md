@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-05-24 22:10:28 CST
+
+- Improved README discovery with badges, at-a-glance positioning, compatibility notes, install paths, examples, and a workflow diagram.
+- Added GitHub issue templates for idea reviews, agent compatibility reports, and failure pattern suggestions.
+- Added discussion templates for idea reviews and compatibility notes.
+- Added contribution guidelines to keep the skill focused on pre-build product risk review.
+
 ## 2026-05-24 21:58:29 CST
 
 - Expanded GitHub ecosystem promotion across Agent Skills, Claude Skills, and AI coding agent directories.

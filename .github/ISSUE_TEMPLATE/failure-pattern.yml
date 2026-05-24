@@ -1,0 +1,33 @@
+name: Failure pattern suggestion
+description: Suggest a product or feature failure pattern the skill should understand.
+title: "[Failure Pattern]: "
+body:
+  - type: input
+    id: pattern-name
+    attributes:
+      label: Pattern name
+      placeholder: "Example: Nice-to-have dashboard"
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What does this pattern mean?
+      placeholder: "Describe the repeated failure mode in plain language."
+    validations:
+      required: true
+  - type: textarea
+    id: example
+    attributes:
+      label: Example
+      description: Use a public or anonymized example only.
+      placeholder: "A team built..."
+  - type: textarea
+    id: detection
+    attributes:
+      label: How should the skill detect it?
+      placeholder: "Look for ideas where..."
+  - type: textarea
+    id: validation
+    attributes:
+      label: What validation step should the skill recommend?
