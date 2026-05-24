@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-05-24 23:20:02 CST
+
+- Published release `v0.1.1`.
+- Enabled GitHub Discussions for the repository.
+- Created the first community discussion for product and feature idea reviews.
+- Recorded the outreach check-in result in the submissions tracker.
+
 ## 2026-05-24 23:09:23 CST
 
 - Added three public-case-inspired examples based on Before You Build cases.

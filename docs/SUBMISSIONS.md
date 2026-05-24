@@ -1,6 +1,6 @@
 # Promotion Submissions
 
-Last updated: 2026-05-24 21:58:29 CST
+Last updated: 2026-05-24 23:20:02 CST
 
 This file tracks public promotion and directory submission attempts for Before You Build Skill.
 
@@ -30,6 +30,20 @@ This file tracks public promotion and directory submission attempts for Before Y
 | ToolHunter | Directory form | Submitted | https://www.toolhunter.cc/submit | Submitted by the user after CAPTCHA. |
 | ToolShelf | Directory form | Submitted | https://toolshelf.dev/submit | Submitted by the user after sign-in. |
 | FOSSHUNTER | Directory form | Submitted | https://fosshunter.com/ | Submitted by the user after sign-in. |
+
+## Project Updates
+
+| Channel | Type | Status | Link | Notes |
+|---|---|---|---|---|
+| GitHub release | Release | Published | https://github.com/bin1874/before-you-build-skill/releases/tag/v0.1.1 | Published after README, template, and public-case example improvements. |
+| GitHub Discussions | Repository setting | Enabled | https://github.com/bin1874/before-you-build-skill/discussions | Enabled for community idea reviews and compatibility notes. |
+| GitHub Discussions | Discussion | Published | https://github.com/bin1874/before-you-build-skill/discussions/1 | First prompt: "Show what you are about to build". |
+
+## Outreach Check-ins
+
+| Date | Result | Notes |
+|---|---|---|
+| 2026-05-24 23:20:02 CST | No action needed | All submitted GitHub issues remain open with no maintainer comments yet. The kodustech PR is open and mergeable with clean status. |
 
 ## Pending or Blocked
 
