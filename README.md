@@ -2,9 +2,23 @@
 
 Don't ask AI to build it yet. Ask why it might fail first.
 
-Before You Build Skill is a lightweight skill package for AI coding tools. Use it before starting a product, adding a feature, expanding scope, or asking an agent to implement an idea.
+Before You Build Skill is a lightweight open-source skill package for AI coding tools. Use it before starting a product, adding a feature, expanding scope, or asking an agent to implement an idea.
 
 It does not build your app. It makes the agent pause and review product risk first.
+
+## Why This Exists
+
+AI coding agents made building much faster. That also makes it easier to spend days or weeks polishing the wrong thing.
+
+This skill adds a simple pre-build review step. Before the agent writes code, it should challenge the riskiest assumptions: who needs this, why now, what they use today, whether they would pay, and what would make the idea fail.
+
+## Who Should Use It
+
+- Indie hackers and solo founders testing new product ideas.
+- AI SaaS builders turning demos into products.
+- Product engineers adding features to existing products.
+- Teams using Codex, Claude Code, Cursor, OpenCode, OpenClaw, or similar coding agents.
+- Anyone tempted to ask an agent to implement before the demand risk is clear.
 
 ## What It Does
 
@@ -26,6 +40,18 @@ Use it before:
 
 Do not use it as a replacement for technical review, security review, architecture review, or code review. This skill is about whether the product or feature should be built, not how to implement it.
 
+## Quick Start
+
+Copy this into your AI coding tool:
+
+```text
+Use before-you-build to review this idea before implementation:
+
+[Describe the product, feature, target users, current alternatives, and why you think it should exist.]
+```
+
+The agent should return a short reality check with a verdict before it starts implementation.
+
 ## Package Contents
 
 ```text
@@ -41,6 +67,9 @@ Do not use it as a replacement for technical review, security review, architectu
   - feature-change.md
   - launched-project.md
   - new-product-idea.md
+- docs/
+  - INSTALL.md
+  - PROMOTION.md
 ```
 
 ## Install
@@ -52,6 +81,8 @@ git clone https://github.com/bin1874/before-you-build-skill.git
 ```
 
 For tools that do not support skill folders, open `SKILL.md` and paste the relevant instructions into your project rules or custom instructions.
+
+See [docs/INSTALL.md](docs/INSTALL.md) for tool-specific setup notes.
 
 ## Basic Usage
 
@@ -133,6 +164,14 @@ If Case Memory is used, send only a short idea summary and the minimum fields ne
 
 - Product risk case library: [beforeyoubuild.fyi](https://beforeyoubuild.fyi)
 - Skill page: [beforeyoubuild.fyi/en/skill](https://beforeyoubuild.fyi/en/skill)
+
+## Share
+
+If you want to share this project, start with the core idea:
+
+> AI coding agents made building easier. Before you ask one to build, ask why the idea might fail.
+
+More copy, directory notes, and community posting angles are in [docs/PROMOTION.md](docs/PROMOTION.md).
 
 ## License
 
