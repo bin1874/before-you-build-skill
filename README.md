@@ -169,6 +169,9 @@ The skill should return a short reality check, usually with:
 | New product idea | [AI podcast-to-LinkedIn tool](examples/new-product-idea.md) |
 | Feature change | [Team workspaces and roles](examples/feature-change.md) |
 | Launched project | [AI resume checker with traffic but low payment](examples/launched-project.md) |
+| Real public case | [Dripfit: AI outfit assistant risk review](examples/real-case-dripfit.md) |
+| Real public case | [GummySearch: Reddit research workflow and platform risk](examples/real-case-gummysearch.md) |
+| Real public case | [Ledger Cloud Reminders: developer tool adoption risk](examples/real-case-ledger-cloud-reminders.md) |
 
 ## Example
 

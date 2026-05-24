@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-05-24 23:09:23 CST
+
+- Added three public-case-inspired examples based on Before You Build cases.
+- Covered AI wrapper risk, platform dependency risk, and developer tool adoption risk.
+- Linked the new real case examples from the README.
+
 ## 2026-05-24 22:10:28 CST
 
 - Improved README discovery with badges, at-a-glance positioning, compatibility notes, install paths, examples, and a workflow diagram.
