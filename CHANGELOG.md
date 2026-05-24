@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-05-24 20:52:07 CST
+
+- Added a promotion submissions tracker.
+- Recorded completed directory and GitHub promotion submissions.
+- Documented blocked and deferred promotion channels.
+
 ## 2026-05-24 20:39:46 CST
 
 - Expanded README positioning for public GitHub discovery.
