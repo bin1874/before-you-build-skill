@@ -43,7 +43,7 @@ This skill adds a simple pre-build review step. Before the agent writes code, it
 | Codex | Install the repository as a local skill folder when local skills are available. |
 | Claude Code | Use as a Claude Code skill or copy `SKILL.md` into project instructions. |
 | Cursor | Add `SKILL.md` as a project rule, then invoke it before implementation. |
-| OpenCode / OpenClaw | Add `SKILL.md` as a custom skill, rule, memory, or named instruction. |
+| OpenCode / OpenClaw | Add `SKILL.md` as a custom skill, rule, memory, or named instruction. See [docs/OPENCLAW.md](docs/OPENCLAW.md) for OpenClaw publishing notes. |
 | Other agents | Paste the minimal prompt from [docs/INSTALL.md](docs/INSTALL.md). |
 
 ## What It Does
@@ -100,6 +100,7 @@ The agent should return a short reality check with a verdict before it starts im
 .
 - SKILL.md
 - CONTRIBUTING.md
+- .clawhubignore
 - agents/
   - openai.yaml
 - .github/
@@ -115,6 +116,7 @@ The agent should return a short reality check with a verdict before it starts im
   - new-product-idea.md
 - docs/
   - INSTALL.md
+  - OPENCLAW.md
   - PROMOTION.md
 ```
 
@@ -129,6 +131,8 @@ git clone https://github.com/bin1874/before-you-build-skill.git
 For tools that do not support skill folders, open `SKILL.md` and paste the relevant instructions into your project rules or custom instructions.
 
 See [docs/INSTALL.md](docs/INSTALL.md) for tool-specific setup notes.
+
+For OpenClaw and ClawHub-specific publishing notes, see [docs/OPENCLAW.md](docs/OPENCLAW.md).
 
 ## Install Paths
 

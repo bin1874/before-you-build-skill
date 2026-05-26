@@ -1,6 +1,11 @@
 ---
 name: before-you-build
 description: Use before building or changing a product, feature, SaaS, AI app, side project, or startup idea to run a short demand, distribution, and failure-pattern reality check. Not for ordinary coding tasks where the decision to build is already clear.
+version: 0.1.1
+metadata:
+  openclaw:
+    homepage: https://github.com/bin1874/before-you-build-skill
+    skillKey: before-you-build
 ---
 
 # before you build

@@ -1,5 +1,18 @@
 # Changelog
 
+## 2026-05-26 22:45:13 CST
+
+- Expanded GitHub ecosystem promotion with one Claude skill registry issue and two PR-format awesome list submissions.
+- Recorded new submission links for `majiayu000/claude-skill-registry-core`, `jaydeepkarale/awesome-agent-skills`, and `junminhong/awesome-agent-skills`.
+
+## 2026-05-26 22:40:43 CST
+
+- Added OpenClaw and ClawHub publishing notes.
+- Documented OpenClaw installation paths and invocation guidance.
+- Added ClawHub listing metadata, a security statement, and a submission checklist.
+- Added OpenClaw metadata to `SKILL.md` and a `.clawhubignore` publish filter.
+- Recorded OpenClaw submission preparation in the promotion tracker.
+
 ## 2026-05-24 23:20:02 CST
 
 - Published release `v0.1.1`.

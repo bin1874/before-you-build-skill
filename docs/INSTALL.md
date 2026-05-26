@@ -67,6 +67,48 @@ If the tool supports custom agents, skills, memories, rules, or instruction file
 
 If it only supports one global instruction field, paste the "Core Behavior", "When To Use", and "Output Modes" sections from `SKILL.md`.
 
+## OpenClaw
+
+Before You Build Skill is designed to work as a text-first OpenClaw skill. Normal use does not require shell access, file writes, network access, or an API key.
+
+If your OpenClaw setup supports GitHub skill installation, try:
+
+```bash
+openclaw skills install github:bin1874/before-you-build-skill
+```
+
+After the skill is published on ClawHub, OpenClaw users can also install it from the registry:
+
+```bash
+clawhub install before-you-build
+```
+
+If you prefer manual installation, clone the repository into OpenClaw's managed skills directory:
+
+```bash
+git clone https://github.com/bin1874/before-you-build-skill.git ~/.openclaw/skills/before-you-build
+```
+
+Expected local layout:
+
+```text
+~/.openclaw/skills/before-you-build/
+  SKILL.md
+  README.md
+  references/
+  examples/
+  docs/
+```
+
+Then invoke it explicitly before implementation:
+
+```text
+Use before-you-build to review this product or feature idea before writing code:
+...
+```
+
+For ClawHub publishing notes, see `docs/OPENCLAW.md`.
+
 ## Minimal Prompt-Only Setup
 
 If you do not want to install anything, paste this before a build request:
