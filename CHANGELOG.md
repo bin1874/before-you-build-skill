@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-05-27 01:40:58 CST
+
+- Ran the second hourly promotion pass and searched for additional GitHub skill directories that accept `SKILL.md` contributions.
+- Confirmed `skillcreatorai/Awesome-Agent-Skills` and `agent-skills-hub/agent-skills-hub` as strong new cross-agent targets, but the automation environment still cannot submit because GitHub CLI authentication is invalid and `api.github.com` is unreachable.
+- Recorded the new blocked targets and deferred the more Copilot-centric `Code-and-Sorts/awesome-copilot-agents` in [`/Users/hbf/TOOLS/before-you-build-skill/docs/SUBMISSIONS.md`](/Users/hbf/TOOLS/before-you-build-skill/docs/SUBMISSIONS.md).
+
 ## 2026-05-27 00:39:51 CST
 
 - Ran the first hourly promotion pass and searched for additional GitHub skill directories and marketplaces.

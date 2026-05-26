@@ -1,6 +1,6 @@
 # Promotion Submissions
 
-Last updated: 2026-05-27 00:39:51 CST
+Last updated: 2026-05-27 01:40:58 CST
 
 This file tracks public promotion and directory submission attempts for Before You Build Skill.
 
@@ -69,6 +69,7 @@ This file tracks public promotion and directory submission attempts for Before Y
 |---|---|---|
 | 2026-05-24 23:20:02 CST | No action needed | All submitted GitHub issues remain open with no maintainer comments yet. The kodustech PR is open and mergeable with clean status. |
 | 2026-05-27 00:39:51 CST | Submission blocked | Searched additional GitHub skill directories. `block/agent-skills` is a strong new fit and explicitly welcomes community PRs, but this automation environment cannot submit because `gh auth status` reports the `bin1874` token is invalid and shell access to `api.github.com` is blocked. Deferred `skillcreatorai/Awesome-Agent-Skills` until auth is restored, and skipped `finfin/awesome-frontend-skills` because it is frontend-only rather than product-validation focused. |
+| 2026-05-27 01:40:58 CST | Submission blocked | Searched for additional cross-agent skill directories and found two new relevant GitHub targets: `skillcreatorai/Awesome-Agent-Skills`, which explicitly supports Codex/Cursor/Goose/OpenCode installs and has a Business & Marketing section, and `agent-skills-hub/agent-skills-hub`, which explicitly accepts `SKILL.md` PRs and supports Codex/OpenClaw/Claude/Cursor. No submission could be made because `gh auth status` still reports the `bin1874` token is invalid and both `gh repo view` and `gh search repos` fail to reach `api.github.com`. Deferred `Code-and-Sorts/awesome-copilot-agents` because it is contribution-friendly but Copilot-centric rather than a stronger fit than the broader cross-agent registries. |
 
 ## Pending or Blocked
 
@@ -90,8 +91,10 @@ This file tracks public promotion and directory submission attempts for Before Y
 | zocomputer/skills | Deferred | Contribution flow expects either skills.sh import or Zo-specific `DISPLAY.json` metadata plus validation. | Revisit after the skill is indexed by skills.sh or after preparing Zo metadata. |
 | nextlevelbuilder/skillx | Deferred | Clone was unstable during this pass and the README did not show a simple public repo-entry submission flow. | Revisit in a later scheduled pass and inspect seed/import docs before submitting. |
 | block/agent-skills | Blocked | The repository is clearly relevant and contribution-friendly, but this automation environment cannot open the required PR because `gh auth status` reports an invalid `bin1874` token and shell access to `api.github.com` is blocked. | Restore GitHub CLI authentication and rerun this pass to submit a PR. |
-| skillcreatorai/Awesome-Agent-Skills | Deferred | The repository appears relevant and has a Business & Marketing section, but it requires a repo-native skill contribution and is a weaker fit than `block/agent-skills` for this pass. | Revisit after GitHub CLI authentication is restored and after attempting the stronger marketplace target first. |
+| skillcreatorai/Awesome-Agent-Skills | Blocked | The repository is clearly relevant, supports multiple agents including Codex and Cursor, and has a Business & Marketing section that fits this project, but this automation environment cannot open the needed PR because `gh auth status` reports an invalid `bin1874` token and `gh repo view` cannot reach `api.github.com`. | Restore GitHub CLI authentication and rerun this pass to submit a repo-native skill PR. |
+| agent-skills-hub/agent-skills-hub | Blocked | The repository is clearly relevant, explicitly supports Codex, OpenClaw, Claude Code, and Cursor, and its README says contributions should be submitted by creating a `SKILL.md` and opening a PR, but this automation environment cannot reach `api.github.com` and cannot authenticate `gh`. | Restore GitHub CLI authentication and rerun this pass to prepare a skill PR. |
 | finfin/awesome-frontend-skills | Skipped | The list is limited to frontend implementation skills, while Before You Build focuses on product, demand, and workflow validation before coding. | Do not submit unless a frontend-specific variant of the skill is created. |
+| Code-and-Sorts/awesome-copilot-agents | Deferred | The repository is active and contribution-friendly, but it is broader than skills alone and primarily centered on GitHub Copilot instructions, prompts, and MCP resources rather than the stronger cross-agent skill registries found this pass. | Revisit after the blocked cross-agent registry PRs are attempted or if we create a Copilot-specific packaging variant. |
 
 ## Reusable Metadata
 
