@@ -1,6 +1,6 @@
 # Promotion Submissions
 
-Last updated: 2026-05-26 22:45:13 CST
+Last updated: 2026-05-26 22:48:50 CST
 
 This file tracks public promotion and directory submission attempts for Before You Build Skill.
 
@@ -29,6 +29,7 @@ This file tracks public promotion and directory submission attempts for Before Y
 | majiayu000/claude-skill-registry-core | GitHub issue | Submitted | https://github.com/majiayu000/claude-skill-registry-core/issues/176 | Suggested the skill for a Claude skill registry that accepts issue submissions. |
 | jaydeepkarale/awesome-agent-skills | GitHub PR | Submitted | https://github.com/jaydeepkarale/awesome-agent-skills/pull/2 | Added a multi-agent skill folder and README entry. |
 | junminhong/awesome-agent-skills | GitHub PR | Submitted | https://github.com/junminhong/awesome-agent-skills/pull/6 | Added a Codex business/marketing skill entry. |
+| LessUp/awesome-claude-skills-zh | GitHub PR | Submitted | https://github.com/LessUp/awesome-claude-skills-zh/pull/1 | Added a Chinese Claude Skills entry with a localized `SKILL.md`. |
 | ForgeIndex | Directory form | Submitted | https://forgeindex.ai/ | Google Form returned "Your response has been recorded." |
 | ToolHunter | Directory form | Submitted | https://www.toolhunter.cc/submit | Submitted by the user after CAPTCHA. |
 | ToolShelf | Directory form | Submitted | https://toolshelf.dev/submit | Submitted by the user after sign-in. |

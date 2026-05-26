@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-05-26 22:48:50 CST
+
+- Added a Chinese Claude Skills list PR submission for `LessUp/awesome-claude-skills-zh`.
+- Recorded the localized skill submission in the promotion tracker.
+
 ## 2026-05-26 22:45:13 CST
 
 - Expanded GitHub ecosystem promotion with one Claude skill registry issue and two PR-format awesome list submissions.
