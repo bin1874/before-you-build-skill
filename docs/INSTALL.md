@@ -80,7 +80,7 @@ openclaw skills install github:bin1874/before-you-build-skill
 After the skill is published on ClawHub, OpenClaw users can also install it from the registry:
 
 ```bash
-clawhub install before-you-build
+openclaw skills install before-you-build
 ```
 
 If you prefer manual installation, clone the repository into OpenClaw's managed skills directory:

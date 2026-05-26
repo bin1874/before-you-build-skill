@@ -1,6 +1,6 @@
 # OpenClaw Publishing Notes
 
-Last updated: 2026-05-26 22:40:43 CST
+Last updated: 2026-05-26 22:56:52 CST
 
 This document prepares Before You Build Skill for OpenClaw and ClawHub distribution.
 
@@ -14,7 +14,11 @@ The canonical package remains this repository:
 https://github.com/bin1874/before-you-build-skill
 ```
 
-OpenClaw users should be able to install the same source package or find it through ClawHub once it is accepted there.
+OpenClaw users can install the published ClawHub package:
+
+```bash
+openclaw skills install before-you-build
+```
 
 ## Why No Separate Fork
 
@@ -155,6 +159,22 @@ clawhub skill publish --help
 
 After publishing, ClawHub may hide the new release from normal install/download surfaces until automated review and verification finish.
 
+Published release:
+
+```text
+https://clawhub.ai/bin1874/before-you-build
+```
+
+Registry verification:
+
+```text
+before-you-build@0.1.1
+Owner: bin1874
+Moderation: CLEAN
+Moderation Reason: pending.scan
+Published ID: k97f73gp0g6bb4bzp7fv9yeye987fa7z
+```
+
 ## Security Statement
 
 Suggested submission note:
@@ -165,15 +185,15 @@ Before You Build Skill is a text-only Agent Skill package. It does not require a
 
 ## Submission Checklist
 
-- [ ] Confirm `SKILL.md` frontmatter uses the public slug `before-you-build`.
-- [ ] Confirm `SKILL.md` frontmatter includes the current semver version.
-- [ ] Confirm README mentions OpenClaw compatibility and install notes.
-- [ ] Confirm `docs/INSTALL.md` includes OpenClaw-specific local install paths.
-- [ ] Confirm `.clawhubignore` excludes repository metadata, generated archives, and local artifacts.
-- [ ] Confirm no secrets, tokens, generated archives, or local machine paths are committed.
-- [ ] Publish or submit the skill through ClawHub / OpenClaw's current official workflow.
-- [ ] Wait for automated review and verification if the release is temporarily hidden.
-- [ ] Record the submission URL and status in `docs/SUBMISSIONS.md`.
+- [x] Confirm `SKILL.md` frontmatter uses the public slug `before-you-build`.
+- [x] Confirm `SKILL.md` frontmatter includes the current semver version.
+- [x] Confirm README mentions OpenClaw compatibility and install notes.
+- [x] Confirm `docs/INSTALL.md` includes OpenClaw-specific local install paths.
+- [x] Confirm `.clawhubignore` excludes repository metadata, generated archives, and local artifacts.
+- [x] Confirm no secrets, tokens, generated archives, or local machine paths are committed.
+- [x] Publish or submit the skill through ClawHub / OpenClaw's current official workflow.
+- [x] Wait for automated review and verification if the release is temporarily hidden.
+- [x] Record the submission URL and status in `docs/SUBMISSIONS.md`.
 - [ ] After it appears in OpenClaw's public skill source, consider submitting to third-party directories such as `awesome-openclaw-skills`.
 
 ## Third-Party Directory Timing

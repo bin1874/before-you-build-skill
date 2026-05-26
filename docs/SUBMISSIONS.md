@@ -1,6 +1,6 @@
 # Promotion Submissions
 
-Last updated: 2026-05-26 22:48:50 CST
+Last updated: 2026-05-26 22:56:52 CST
 
 This file tracks public promotion and directory submission attempts for Before You Build Skill.
 
@@ -34,6 +34,7 @@ This file tracks public promotion and directory submission attempts for Before Y
 | ToolHunter | Directory form | Submitted | https://www.toolhunter.cc/submit | Submitted by the user after CAPTCHA. |
 | ToolShelf | Directory form | Submitted | https://toolshelf.dev/submit | Submitted by the user after sign-in. |
 | FOSSHUNTER | Directory form | Submitted | https://fosshunter.com/ | Submitted by the user after sign-in. |
+| ClawHub / OpenClaw Skill Hub | Registry publish | Published | https://clawhub.ai/bin1874/before-you-build | Published `before-you-build@0.1.1` under `@bin1874`. Install command: `openclaw skills install before-you-build`. Registry inspect returned `Moderation: CLEAN`, reason `pending.scan`. |
 
 ## Project Updates
 
@@ -42,7 +43,7 @@ This file tracks public promotion and directory submission attempts for Before Y
 | GitHub release | Release | Published | https://github.com/bin1874/before-you-build-skill/releases/tag/v0.1.1 | Published after README, template, and public-case example improvements. |
 | GitHub Discussions | Repository setting | Enabled | https://github.com/bin1874/before-you-build-skill/discussions | Enabled for community idea reviews and compatibility notes. |
 | GitHub Discussions | Discussion | Published | https://github.com/bin1874/before-you-build-skill/discussions/1 | First prompt: "Show what you are about to build". |
-| OpenClaw / ClawHub | Submission prep | Prepared | docs/OPENCLAW.md | Added OpenClaw install notes, listing metadata, security statement, publish command, and submission checklist. CLI preflight confirmed `clawhub v0.18.0` is available through `npx`; publishing is blocked until owner login. |
+| OpenClaw / ClawHub | Submission prep | Completed | docs/OPENCLAW.md | Added OpenClaw install notes, listing metadata, security statement, publish command, and submission checklist. Published via `clawhub v0.18.0`. |
 
 ## Outreach Check-ins
 
@@ -54,7 +55,6 @@ This file tracks public promotion and directory submission attempts for Before Y
 
 | Channel | Status | Reason | Suggested next step |
 |---|---|---|---|
-| ClawHub / OpenClaw Skill Hub | Ready to submit | Requires current ClawHub/OpenClaw account flow and owner login. Local `npx --yes clawhub whoami` returned `Not logged in`. | Log in with `clawhub login`, publish `before-you-build` using the command in `docs/OPENCLAW.md`, then record the published URL here. |
 | VoltAgent/awesome-openclaw-skills | Deferred | Contribution guide expects a ClawHub link and a GitHub source link under `github.com/openclaw/skills`; personal repo links are not enough. | Revisit after the skill appears in the official OpenClaw / ClawHub source. |
 | Launching Next | Deferred | Form requires personal name and email, and the site is startup-focused rather than skill-focused. | Use only if we want broader startup exposure. |
 | VoltAgent/awesome-agent-skills | Deferred | Contribution guide says brand-new skills are usually not accepted until they have real usage. | Revisit after the repo has stars, users, or external mentions. |

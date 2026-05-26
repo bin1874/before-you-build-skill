@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-05-26 22:56:52 CST
+
+- Published `before-you-build@0.1.1` to ClawHub under `@bin1874`.
+- Verified the public ClawHub page and registry search result.
+- Recorded the ClawHub listing URL, install command, and moderation status in the submissions tracker.
+
 ## 2026-05-26 22:49:57 CST
 
 - Fixed the OpenClaw publish command placeholder so it renders clearly in Markdown.
