@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-05-26 23:05:05 CST
+
+- Expanded GitHub ecosystem promotion with additional Codex, Claude marketplace, and agent skill directory submissions.
+- Recorded new links for `ComposioHQ/awesome-codex-skills`, `doanbactam/agent-skills-directory`, `beshkenadze/claude-skills-marketplace`, and `jiejuefuyou/awesome-claude-code-skills`.
+- Added deferred notes for curated lists that require more public usage or stars before submission.
+
 ## 2026-05-26 22:56:52 CST
 
 - Published `before-you-build@0.1.1` to ClawHub under `@bin1874`.

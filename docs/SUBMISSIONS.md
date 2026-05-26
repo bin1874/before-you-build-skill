@@ -1,6 +1,6 @@
 # Promotion Submissions
 
-Last updated: 2026-05-26 22:56:52 CST
+Last updated: 2026-05-26 23:05:05 CST
 
 This file tracks public promotion and directory submission attempts for Before You Build Skill.
 
@@ -30,6 +30,10 @@ This file tracks public promotion and directory submission attempts for Before Y
 | jaydeepkarale/awesome-agent-skills | GitHub PR | Submitted | https://github.com/jaydeepkarale/awesome-agent-skills/pull/2 | Added a multi-agent skill folder and README entry. |
 | junminhong/awesome-agent-skills | GitHub PR | Submitted | https://github.com/junminhong/awesome-agent-skills/pull/6 | Added a Codex business/marketing skill entry. |
 | LessUp/awesome-claude-skills-zh | GitHub PR | Submitted | https://github.com/LessUp/awesome-claude-skills-zh/pull/1 | Added a Chinese Claude Skills entry with a localized `SKILL.md`. |
+| ComposioHQ/awesome-codex-skills | GitHub PR | Submitted | https://github.com/ComposioHQ/awesome-codex-skills/pull/84 | Added an external Codex skill entry with install command. |
+| doanbactam/agent-skills-directory | GitHub issue | Submitted | https://github.com/doanbactam/agent-skills-directory/issues/56 | Requested indexing in a SKILL.md directory for coding assistants. |
+| beshkenadze/claude-skills-marketplace | GitHub PR | Submitted | https://github.com/beshkenadze/claude-skills-marketplace/pull/2 | Added a marketplace skill under `skills/development/before-you-build`. |
+| jiejuefuyou/awesome-claude-code-skills | GitHub PR | Submitted | https://github.com/jiejuefuyou/awesome-claude-code-skills/pull/1 | Added a before-you-build pattern for real-product Claude Code workflows. |
 | ForgeIndex | Directory form | Submitted | https://forgeindex.ai/ | Google Form returned "Your response has been recorded." |
 | ToolHunter | Directory form | Submitted | https://www.toolhunter.cc/submit | Submitted by the user after CAPTCHA. |
 | ToolShelf | Directory form | Submitted | https://toolshelf.dev/submit | Submitted by the user after sign-in. |
@@ -59,6 +63,8 @@ This file tracks public promotion and directory submission attempts for Before Y
 | Launching Next | Deferred | Form requires personal name and email, and the site is startup-focused rather than skill-focused. | Use only if we want broader startup exposure. |
 | VoltAgent/awesome-agent-skills | Deferred | Contribution guide says brand-new skills are usually not accepted until they have real usage. | Revisit after the repo has stars, users, or external mentions. |
 | ComposioHQ/awesome-claude-skills | Deferred | Requires adding a Claude-specific skill folder to their repo; our package is broader than Claude only. | Revisit if we create a Claude-native variant. |
+| helloianneo/awesome-claude-code-skills | Deferred | Contribution section asks for GitHub stars greater than 10 or clear user feedback; the repo currently has too little public usage. | Revisit after the repository has visible usage or maintainer feedback from other lists. |
+| sujayjayjay/awesome-claude-code-skills | Deferred | Curated list generally expects 50+ stars, with exceptions only for unusually strong new projects. | Revisit after public usage grows. |
 | travisvn/awesome-claude-skills | Deferred | Contribution guide says skills under roughly 10 GitHub stars are likely to be closed automatically. | Revisit after the repo has more public usage. |
 | JackyST0/awesome-agent-skills | Deferred | Contribution guide requires individual skill repos to have at least 20 GitHub stars. | Revisit after the repo has more public usage. |
 | philipbankier/awesome-agent-skills | Deferred | Contribution guide expects roughly 10 GitHub stars or official-source status. | Revisit after the repo has more public usage. |
