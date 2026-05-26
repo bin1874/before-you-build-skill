@@ -1,6 +1,6 @@
 # Promotion Submissions
 
-Last updated: 2026-05-26 23:35:59 CST
+Last updated: 2026-05-26 23:44:05 CST
 
 This file tracks public promotion and directory submission attempts for Before You Build Skill.
 
@@ -43,6 +43,9 @@ This file tracks public promotion and directory submission attempts for Before Y
 | 7Ese/Awesome-Agent-Skills | GitHub issue | Submitted | https://github.com/7Ese/Awesome-Agent-Skills/issues/3 | Submitted via the repository's skill submission issue format. |
 | salihcantekin/awesome-agent-skills | GitHub issue | Submitted | https://github.com/salihcantekin/awesome-agent-skills/issues/1 | Requested a new Product & Strategy skill; full PR deferred because the repo requires eight platform-specific files. |
 | ComeOnOliver/skillshub | GitHub PR | Submitted | https://github.com/ComeOnOliver/skillshub/pull/69 | Added a SkillsHub directory entry at `skills/bin1874/before-you-build-skill/before-you-build/SKILL.md`. |
+| LeorickCoder/awesome-codex-skills | GitHub PR | Submitted | https://github.com/LeorickCoder/awesome-codex-skills/pull/1 | Added a Codex-oriented top-level `before-you-build` skill and passed `python scripts/validate_repo.py`. |
+| sundial-org/awesome-openclaw-skills | GitHub issue | Submitted | https://github.com/sundial-org/awesome-openclaw-skills/issues/41 | Requested inclusion of the ClawHub listing instead of editing the generated table directly. |
+| eugenepyvovarov/mcpbundler-agent-skills-marketplace | GitHub PR | Submitted | https://github.com/eugenepyvovarov/mcpbundler-agent-skills-marketplace/pull/3 | Added a marketplace entry, `SKILL.md`, and README row under Marketing. |
 | ForgeIndex | Directory form | Submitted | https://forgeindex.ai/ | Google Form returned "Your response has been recorded." |
 | ToolHunter | Directory form | Submitted | https://www.toolhunter.cc/submit | Submitted by the user after CAPTCHA. |
 | ToolShelf | Directory form | Submitted | https://toolshelf.dev/submit | Submitted by the user after sign-in. |
@@ -58,6 +61,7 @@ This file tracks public promotion and directory submission attempts for Before Y
 | GitHub Discussions | Discussion | Published | https://github.com/bin1874/before-you-build-skill/discussions/1 | First prompt: "Show what you are about to build". |
 | OpenClaw / ClawHub | Submission prep | Completed | docs/OPENCLAW.md | Added OpenClaw install notes, listing metadata, security statement, publish command, and submission checklist. Published via `clawhub v0.18.0`. |
 | Chat2AnyLLM/awesome-repo-configs | Registry config | Already listed | https://github.com/Chat2AnyLLM/awesome-repo-configs/blob/main/skill_repos.json | Confirmed `bin1874/before-you-build-skill` is already present in `skill_repos.json`; no duplicate submission needed. |
+| Codex automation | Scheduled task | Active | promote-before-you-build-skill-hourly | Created an hourly automation to run five additional GitHub skills promotion passes. Each pass must update this tracker, update `CHANGELOG.md`, run `git diff --check`, commit, and push. |
 
 ## Outreach Check-ins
 
@@ -83,6 +87,7 @@ This file tracks public promotion and directory submission attempts for Before Y
 | dmgrok/agent_skills_directory | Deferred | The project uses a programmatic `skillsdir publish --submit` flow and expects local skill metadata rather than a simple README PR. | Revisit after adding a compatible `skill.json` or testing the `skillsdir` submission flow. |
 | skilluse/skilluse | Skipped | This is a CLI for using GitHub repositories as registries, not a central list that accepts skill entries. | No submission needed; users can already install from the GitHub repo URL. |
 | zocomputer/skills | Deferred | Contribution flow expects either skills.sh import or Zo-specific `DISPLAY.json` metadata plus validation. | Revisit after the skill is indexed by skills.sh or after preparing Zo metadata. |
+| nextlevelbuilder/skillx | Deferred | Clone was unstable during this pass and the README did not show a simple public repo-entry submission flow. | Revisit in a later scheduled pass and inspect seed/import docs before submitting. |
 
 ## Reusable Metadata
 
