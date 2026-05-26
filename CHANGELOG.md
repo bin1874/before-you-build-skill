@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-05-27 03:43:44 CST
+
+- Ran the fourth hourly promotion pass and searched for additional contribution-friendly GitHub skill repositories.
+- Confirmed `GetBindu/awesome-claude-code-and-skills` and `sickn33/antigravity-awesome-skills` as strong new targets, but the automation environment still cannot submit because GitHub CLI authentication is invalid and `api.github.com` is unreachable.
+- Recorded the new blocked targets, plus deferred and skipped notes for `claude-office-skills/skills` and `aussiegingersnap/cursor-skills`, in [`/Users/hbf/TOOLS/before-you-build-skill/docs/SUBMISSIONS.md`](/Users/hbf/TOOLS/before-you-build-skill/docs/SUBMISSIONS.md).
+
 ## 2026-05-27 02:41:43 CST
 
 - Ran the third hourly promotion pass and searched for additional contribution-friendly GitHub skill repositories.
