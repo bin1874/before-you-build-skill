@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-05-27 02:41:43 CST
+
+- Ran the third hourly promotion pass and searched for additional contribution-friendly GitHub skill repositories.
+- Confirmed `Gentleman-Programming/Gentleman-Skills` and `CodeAlive-AI/ai-driven-development` as strong new cross-agent targets, but the automation environment still cannot submit because GitHub CLI authentication is invalid and `api.github.com` is unreachable.
+- Recorded the new blocked targets plus skip reasons for `jakenuts/agent-skills`, `LambdaTest/agent-skills`, and `trailofbits/skills` in [`/Users/hbf/TOOLS/before-you-build-skill/docs/SUBMISSIONS.md`](/Users/hbf/TOOLS/before-you-build-skill/docs/SUBMISSIONS.md).
+
 ## 2026-05-27 01:40:58 CST
 
 - Ran the second hourly promotion pass and searched for additional GitHub skill directories that accept `SKILL.md` contributions.
