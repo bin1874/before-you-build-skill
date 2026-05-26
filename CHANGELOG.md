@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-05-26 23:35:59 CST
+
+- Continued GitHub ecosystem promotion with additional Claude marketplace, Agent Skills, and registry submissions.
+- Recorded new PRs for `mhattingpete/claude-skills-marketplace`, `6missedcalls/awesome-agent-skills`, and `ComeOnOliver/skillshub`.
+- Recorded new issue submissions for `7Ese/Awesome-Agent-Skills` and `salihcantekin/awesome-agent-skills`.
+- Added skip/defer notes for `skilluse/skilluse` and `zocomputer/skills`.
+
 ## 2026-05-26 23:21:28 CST
 
 - Continued GitHub ecosystem promotion with additional Cursor, AI Skills, DeepAgent, and Claude Skills submissions.

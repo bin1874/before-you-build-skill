@@ -1,6 +1,6 @@
 # Promotion Submissions
 
-Last updated: 2026-05-26 23:21:28 CST
+Last updated: 2026-05-26 23:35:59 CST
 
 This file tracks public promotion and directory submission attempts for Before You Build Skill.
 
@@ -38,6 +38,11 @@ This file tracks public promotion and directory submission attempts for Before Y
 | skillsdirectory/awesome-ai-skills | GitHub PR | Submitted | https://github.com/skillsdirectory/awesome-ai-skills/pull/4 | Added a lightweight `skills/before-you-build/SKILL.md` package and README entry. |
 | EgoAlpha/awesome-DeepAgent-skills | GitHub PR | Submitted | https://github.com/EgoAlpha/awesome-DeepAgent-skills/pull/2 | Added the project to the Business category. |
 | karanb192/awesome-claude-skills | GitHub PR | Submitted | https://github.com/karanb192/awesome-claude-skills/pull/92 | Added the project to `Collaboration & Workflow` after following the repo PR template. |
+| mhattingpete/claude-skills-marketplace | GitHub PR | Submitted | https://github.com/mhattingpete/claude-skills-marketplace/pull/37 | Added `before-you-build` to the engineering workflow plugin as a pre-`feature-planning` risk review skill. |
+| 6missedcalls/awesome-agent-skills | GitHub PR | Submitted | https://github.com/6missedcalls/awesome-agent-skills/pull/1 | Added the project under a Product & Strategy category. |
+| 7Ese/Awesome-Agent-Skills | GitHub issue | Submitted | https://github.com/7Ese/Awesome-Agent-Skills/issues/3 | Submitted via the repository's skill submission issue format. |
+| salihcantekin/awesome-agent-skills | GitHub issue | Submitted | https://github.com/salihcantekin/awesome-agent-skills/issues/1 | Requested a new Product & Strategy skill; full PR deferred because the repo requires eight platform-specific files. |
+| ComeOnOliver/skillshub | GitHub PR | Submitted | https://github.com/ComeOnOliver/skillshub/pull/69 | Added a SkillsHub directory entry at `skills/bin1874/before-you-build-skill/before-you-build/SKILL.md`. |
 | ForgeIndex | Directory form | Submitted | https://forgeindex.ai/ | Google Form returned "Your response has been recorded." |
 | ToolHunter | Directory form | Submitted | https://www.toolhunter.cc/submit | Submitted by the user after CAPTCHA. |
 | ToolShelf | Directory form | Submitted | https://toolshelf.dev/submit | Submitted by the user after sign-in. |
@@ -76,6 +81,8 @@ This file tracks public promotion and directory submission attempts for Before Y
 | jrmapa/awesome-agent-skills | Skipped | The repo appears low quality and download-oriented rather than a curated skill directory. | Do not submit unless the repository becomes clearly maintained and contribution-friendly. |
 | YangsonHung/awesome-agent-skills | Deferred | Requires adding paired English and Chinese skill directories in the repo's own format. | Revisit if we decide to maintain a repo-native bilingual submission. |
 | dmgrok/agent_skills_directory | Deferred | The project uses a programmatic `skillsdir publish --submit` flow and expects local skill metadata rather than a simple README PR. | Revisit after adding a compatible `skill.json` or testing the `skillsdir` submission flow. |
+| skilluse/skilluse | Skipped | This is a CLI for using GitHub repositories as registries, not a central list that accepts skill entries. | No submission needed; users can already install from the GitHub repo URL. |
+| zocomputer/skills | Deferred | Contribution flow expects either skills.sh import or Zo-specific `DISPLAY.json` metadata plus validation. | Revisit after the skill is indexed by skills.sh or after preparing Zo metadata. |
 
 ## Reusable Metadata
 
