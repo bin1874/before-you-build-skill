@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-05-27 00:39:51 CST
+
+- Ran the first hourly promotion pass and searched for additional GitHub skill directories and marketplaces.
+- Identified `block/agent-skills` as a strong new target, but the automation environment could not submit because GitHub CLI authentication is invalid and shell access to `api.github.com` is blocked.
+- Recorded the blocked `block/agent-skills` target, deferred `skillcreatorai/Awesome-Agent-Skills`, and skipped the frontend-only `finfin/awesome-frontend-skills` in `docs/SUBMISSIONS.md`.
+
 ## 2026-05-26 23:44:05 CST
 
 - Created an hourly GitHub skills promotion automation that will run five additional passes and record every submission in `docs/SUBMISSIONS.md`.

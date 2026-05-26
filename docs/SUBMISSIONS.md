@@ -1,6 +1,6 @@
 # Promotion Submissions
 
-Last updated: 2026-05-26 23:44:05 CST
+Last updated: 2026-05-27 00:39:51 CST
 
 This file tracks public promotion and directory submission attempts for Before You Build Skill.
 
@@ -68,6 +68,7 @@ This file tracks public promotion and directory submission attempts for Before Y
 | Date | Result | Notes |
 |---|---|---|
 | 2026-05-24 23:20:02 CST | No action needed | All submitted GitHub issues remain open with no maintainer comments yet. The kodustech PR is open and mergeable with clean status. |
+| 2026-05-27 00:39:51 CST | Submission blocked | Searched additional GitHub skill directories. `block/agent-skills` is a strong new fit and explicitly welcomes community PRs, but this automation environment cannot submit because `gh auth status` reports the `bin1874` token is invalid and shell access to `api.github.com` is blocked. Deferred `skillcreatorai/Awesome-Agent-Skills` until auth is restored, and skipped `finfin/awesome-frontend-skills` because it is frontend-only rather than product-validation focused. |
 
 ## Pending or Blocked
 
@@ -88,6 +89,9 @@ This file tracks public promotion and directory submission attempts for Before Y
 | skilluse/skilluse | Skipped | This is a CLI for using GitHub repositories as registries, not a central list that accepts skill entries. | No submission needed; users can already install from the GitHub repo URL. |
 | zocomputer/skills | Deferred | Contribution flow expects either skills.sh import or Zo-specific `DISPLAY.json` metadata plus validation. | Revisit after the skill is indexed by skills.sh or after preparing Zo metadata. |
 | nextlevelbuilder/skillx | Deferred | Clone was unstable during this pass and the README did not show a simple public repo-entry submission flow. | Revisit in a later scheduled pass and inspect seed/import docs before submitting. |
+| block/agent-skills | Blocked | The repository is clearly relevant and contribution-friendly, but this automation environment cannot open the required PR because `gh auth status` reports an invalid `bin1874` token and shell access to `api.github.com` is blocked. | Restore GitHub CLI authentication and rerun this pass to submit a PR. |
+| skillcreatorai/Awesome-Agent-Skills | Deferred | The repository appears relevant and has a Business & Marketing section, but it requires a repo-native skill contribution and is a weaker fit than `block/agent-skills` for this pass. | Revisit after GitHub CLI authentication is restored and after attempting the stronger marketplace target first. |
+| finfin/awesome-frontend-skills | Skipped | The list is limited to frontend implementation skills, while Before You Build focuses on product, demand, and workflow validation before coding. | Do not submit unless a frontend-specific variant of the skill is created. |
 
 ## Reusable Metadata
 
