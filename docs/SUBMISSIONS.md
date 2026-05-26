@@ -1,6 +1,6 @@
 # Promotion Submissions
 
-Last updated: 2026-05-26 23:05:05 CST
+Last updated: 2026-05-26 23:21:28 CST
 
 This file tracks public promotion and directory submission attempts for Before You Build Skill.
 
@@ -34,6 +34,10 @@ This file tracks public promotion and directory submission attempts for Before Y
 | doanbactam/agent-skills-directory | GitHub issue | Submitted | https://github.com/doanbactam/agent-skills-directory/issues/56 | Requested indexing in a SKILL.md directory for coding assistants. |
 | beshkenadze/claude-skills-marketplace | GitHub PR | Submitted | https://github.com/beshkenadze/claude-skills-marketplace/pull/2 | Added a marketplace skill under `skills/development/before-you-build`. |
 | jiejuefuyou/awesome-claude-code-skills | GitHub PR | Submitted | https://github.com/jiejuefuyou/awesome-claude-code-skills/pull/1 | Added a before-you-build pattern for real-product Claude Code workflows. |
+| spencerpauly/awesome-cursor-skills | GitHub PR | Submitted | https://github.com/spencerpauly/awesome-cursor-skills/pull/18 | Added the project to `Planning & Architecture` for Cursor-compatible skills. |
+| skillsdirectory/awesome-ai-skills | GitHub PR | Submitted | https://github.com/skillsdirectory/awesome-ai-skills/pull/4 | Added a lightweight `skills/before-you-build/SKILL.md` package and README entry. |
+| EgoAlpha/awesome-DeepAgent-skills | GitHub PR | Submitted | https://github.com/EgoAlpha/awesome-DeepAgent-skills/pull/2 | Added the project to the Business category. |
+| karanb192/awesome-claude-skills | GitHub PR | Submitted | https://github.com/karanb192/awesome-claude-skills/pull/92 | Added the project to `Collaboration & Workflow` after following the repo PR template. |
 | ForgeIndex | Directory form | Submitted | https://forgeindex.ai/ | Google Form returned "Your response has been recorded." |
 | ToolHunter | Directory form | Submitted | https://www.toolhunter.cc/submit | Submitted by the user after CAPTCHA. |
 | ToolShelf | Directory form | Submitted | https://toolshelf.dev/submit | Submitted by the user after sign-in. |
@@ -48,6 +52,7 @@ This file tracks public promotion and directory submission attempts for Before Y
 | GitHub Discussions | Repository setting | Enabled | https://github.com/bin1874/before-you-build-skill/discussions | Enabled for community idea reviews and compatibility notes. |
 | GitHub Discussions | Discussion | Published | https://github.com/bin1874/before-you-build-skill/discussions/1 | First prompt: "Show what you are about to build". |
 | OpenClaw / ClawHub | Submission prep | Completed | docs/OPENCLAW.md | Added OpenClaw install notes, listing metadata, security statement, publish command, and submission checklist. Published via `clawhub v0.18.0`. |
+| Chat2AnyLLM/awesome-repo-configs | Registry config | Already listed | https://github.com/Chat2AnyLLM/awesome-repo-configs/blob/main/skill_repos.json | Confirmed `bin1874/before-you-build-skill` is already present in `skill_repos.json`; no duplicate submission needed. |
 
 ## Outreach Check-ins
 
@@ -68,6 +73,9 @@ This file tracks public promotion and directory submission attempts for Before Y
 | travisvn/awesome-claude-skills | Deferred | Contribution guide says skills under roughly 10 GitHub stars are likely to be closed automatically. | Revisit after the repo has more public usage. |
 | JackyST0/awesome-agent-skills | Deferred | Contribution guide requires individual skill repos to have at least 20 GitHub stars. | Revisit after the repo has more public usage. |
 | philipbankier/awesome-agent-skills | Deferred | Contribution guide expects roughly 10 GitHub stars or official-source status. | Revisit after the repo has more public usage. |
+| jrmapa/awesome-agent-skills | Skipped | The repo appears low quality and download-oriented rather than a curated skill directory. | Do not submit unless the repository becomes clearly maintained and contribution-friendly. |
+| YangsonHung/awesome-agent-skills | Deferred | Requires adding paired English and Chinese skill directories in the repo's own format. | Revisit if we decide to maintain a repo-native bilingual submission. |
+| dmgrok/agent_skills_directory | Deferred | The project uses a programmatic `skillsdir publish --submit` flow and expects local skill metadata rather than a simple README PR. | Revisit after adding a compatible `skill.json` or testing the `skillsdir` submission flow. |
 
 ## Reusable Metadata
 

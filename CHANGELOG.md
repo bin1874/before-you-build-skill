@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-05-26 23:21:28 CST
+
+- Continued GitHub ecosystem promotion with additional Cursor, AI Skills, DeepAgent, and Claude Skills submissions.
+- Recorded new PRs for `spencerpauly/awesome-cursor-skills`, `skillsdirectory/awesome-ai-skills`, `EgoAlpha/awesome-DeepAgent-skills`, and `karanb192/awesome-claude-skills`.
+- Confirmed `Chat2AnyLLM/awesome-repo-configs` already lists `bin1874/before-you-build-skill`.
+- Added deferred notes for low-quality, heavy-format, or programmatic submission targets.
+
 ## 2026-05-26 23:05:05 CST
 
 - Expanded GitHub ecosystem promotion with additional Codex, Claude marketplace, and agent skill directory submissions.
