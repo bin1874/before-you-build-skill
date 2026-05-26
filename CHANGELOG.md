@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-05-26 22:49:57 CST
+
+- Fixed the OpenClaw publish command placeholder so it renders clearly in Markdown.
+
 ## 2026-05-26 22:48:50 CST
 
 - Added a Chinese Claude Skills list PR submission for `LessUp/awesome-claude-skills-zh`.

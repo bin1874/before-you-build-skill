@@ -139,12 +139,12 @@ clawhub skill publish . \
   --slug before-you-build \
   --name "Before You Build Skill" \
   --version 0.1.1 \
-  --owner <owner-handle> \
+  --owner YOUR_OWNER_HANDLE \
   --changelog "Add OpenClaw metadata, install notes, and ClawHub publishing guidance." \
   --clawscan-note "Text-only pre-build review skill. No executable payload, no required secrets, and no required network access. Optional Case Memory lookup is documented separately and only used after user permission."
 ```
 
-Replace `<owner-handle>` with the ClawHub publisher handle that should own the skill. ClawHub owner handles are account or organization scoped, and publishing requires permission for that owner.
+Replace `YOUR_OWNER_HANDLE` with the ClawHub publisher handle that should own the skill. ClawHub owner handles are account or organization scoped, and publishing requires permission for that owner.
 
 Optional preflight checks:
 
