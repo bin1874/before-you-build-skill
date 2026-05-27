@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-05-27 22:02:55 CST
+
+- Ran another post-schedule promotion pass after the five intended hourly runs had already completed.
+- Reviewed `mxyhi/ok-skills` and confirmed it as a new high-signal target because the repo is a curated cross-agent skills catalog with explicit contribution guidance and a planning workflow category that matches Before You Build.
+- Skipped `oopsyz/skills` as too low-signal and telco-specific, and deferred `obra/superpowers` because it is primarily a packaged methodology rather than a straightforward external skill directory.
+- Confirmed GitHub submission remains blocked because `gh auth status` still reports the `bin1874` token is invalid, `gh repo view mxyhi/ok-skills` cannot reach `api.github.com`, and no automation-management tool is exposed to disable the already-completed hourly automation.
+
 ## 2026-05-27 20:01:38 CST
 
 - Ran another post-schedule promotion pass after the five intended hourly runs had already completed.
