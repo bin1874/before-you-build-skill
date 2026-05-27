@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-05-27 09:49:31 CST
+
+- Ran another post-schedule promotion follow-up pass after the five intended hourly runs had already completed.
+- Reviewed `github/awesome-copilot` and confirmed it as a new high-signal contribution-friendly target because it is explicitly community-contributed and its docs describe adding new `skills/<skill-name>/SKILL.md` entries before opening a PR.
+- Deferred `MiniMax-AI/skills`, `ConardLi/garden-skills`, and `CopilotKit/skills` as weaker-fit catalogs for this product-validation workflow.
+- Confirmed GitHub submission is still blocked because `gh auth status` reports the `bin1874` token is invalid, and no automation-management tool is exposed in this session to disable the already-completed hourly automation.
+
 ## 2026-05-27 08:48:41 CST
 
 - Ran another post-schedule promotion follow-up pass after the five intended hourly runs had already completed.
