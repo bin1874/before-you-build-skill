@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-05-27 12:54:24 CST
+
+- Ran another post-schedule promotion follow-up pass after the five intended hourly runs had already completed.
+- Reviewed `intellectronica/awesome-skills` and `product-on-purpose/pm-skills` and confirmed both as new relevant contribution-friendly targets; the former explicitly accepts PRs or issues for `skills.yaml`, and the latter is a sizeable cross-agent PM skill library with visible contribution surfaces and strong topical fit.
+- Deferred `BehiSecc/awesome-claude-skills` because its contribution note now emphasizes already community-adopted skills, and skipped `brightdata/awesome-claude-skills` because the repository is archived and read-only.
+- Confirmed GitHub submission remains blocked because `gh auth status` still reports the `bin1874` token is invalid, shell requests still cannot reach `api.github.com`, and `tool_search` still exposes no automation-management tool to disable the already-completed hourly automation.
+
 ## 2026-05-27 11:52:35 CST
 
 - Ran another post-schedule promotion follow-up pass after the five intended hourly runs had already completed.
