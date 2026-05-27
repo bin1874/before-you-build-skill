@@ -1,5 +1,18 @@
 # Changelog
 
+## 2026-05-28 07:25:13 CST
+
+- Ran another post-schedule promotion follow-up pass after the five intended hourly runs had already completed.
+- Reviewed `seb1n/awesome-ai-agent-skills` and confirmed it as a new high-fit target because it is a community-maintained open-standard skill library with broad Codex, Claude Code, and Cursor compatibility plus explicit contribution guidance for new skills.
+- Deferred `huggingface/skills` as too ecosystem-specific for this product-validation workflow, and skipped `tinyhumansai/openhuman-skills` because it is a new 0-star codebase-specific registry rather than a credible external directory target.
+- Confirmed GitHub submission remains blocked because `gh auth status` still reports the `bin1874` token is invalid, `gh repo view seb1n/awesome-ai-agent-skills` still cannot reach `api.github.com`, and `tool_search` still exposes no automation-management tool to disable the already-completed hourly automation.
+
+## 2026-05-28 01:24:16 CST
+
+- Ran another post-schedule promotion follow-up pass after the five intended hourly runs had already completed.
+- Reviewed `w95/awesome-claude-corporate-skills` and confirmed it as a new high-fit target because it is a curated Claude skills catalog with product, marketing, and operations sections plus explicit `skills/your-skill-name/SKILL.md` pull request guidance.
+- Confirmed GitHub submission remains blocked because `gh auth status` still reports the `bin1874` token is invalid, `gh repo view w95/awesome-claude-corporate-skills` still fails with `error connecting to api.github.com`, and `tool_search` still exposes no automation-management tool to disable the already-completed hourly automation.
+
 ## 2026-05-28 07:23:12 CST
 
 - Ran another post-schedule promotion follow-up pass after the five intended hourly runs had already completed.
