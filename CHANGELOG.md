@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-05-27 11:52:35 CST
+
+- Ran another post-schedule promotion follow-up pass after the five intended hourly runs had already completed.
+- Reviewed `letta-ai/skills` and confirmed it as a new high-fit contribution-friendly target because its README explicitly says the repo is for Letta Code, Claude Code, Codex CLI, and other skill-capable agents and invites contributors to create a skill and open a pull request.
+- Confirmed GitHub submission remains blocked because `gh auth status` still reports the `bin1874` token is invalid, `gh repo view letta-ai/skills` cannot reach `api.github.com`, and `tool_search` still exposes no automation-management tool to disable the already-completed hourly automation.
+
 ## 2026-05-27 10:51:11 CST
 
 - Ran another post-schedule promotion follow-up pass after the five intended hourly runs had already completed.
