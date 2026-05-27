@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-05-27 08:48:41 CST
+
+- Ran another post-schedule promotion follow-up pass after the five intended hourly runs had already completed.
+- Reviewed `theneoai/awesome-skills` and confirmed it as a new contribution-friendly target because its README explicitly says third-party skill repos can be proposed by editing `external/sources.yml` and opening a PR.
+- Confirmed submission is still blocked because GitHub CLI authentication is invalid, `gh repo view theneoai/awesome-skills` cannot reach `api.github.com`, and no automation-management tool is exposed in this session to disable the already-completed hourly automation.
+
 ## 2026-05-27 07:46:34 CST
 
 - Ran a seventh follow-up promotion pass after the five scheduled hourly runs had already completed.
