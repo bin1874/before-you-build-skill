@@ -1,6 +1,6 @@
 # Promotion Submissions
 
-Last updated: 2026-05-27 12:54:24 CST
+Last updated: 2026-05-27 13:55:03 CST
 
 This file tracks public promotion and directory submission attempts for Before You Build Skill.
 
@@ -66,6 +66,7 @@ This file tracks public promotion and directory submission attempts for Before Y
 | product-on-purpose/pm-skills | GitHub PR | Blocked | https://github.com/product-on-purpose/pm-skills | Confirmed as a new high-fit product-workflow target: the repo is a large PM skill library that supports cross-agent installs, includes a Product Management workflow focus aligned with pre-build validation, and exposes `CONTRIBUTING.md` plus active PRs, but this automation environment still cannot authenticate `gh` or reach `api.github.com`. |
 | posit-dev/skills | GitHub PR | Blocked | https://github.com/posit-dev/skills | Confirmed as a new high-signal target: README welcomes contributions, `CONTRIBUTING.md` documents adding a new `category/skill/SKILL.md`, updating `.claude-plugin/marketplace.json`, running `count-skill-tokens.py`, and opening a PR, but this automation environment still cannot authenticate `gh` or reach `api.github.com`. |
 | letta-ai/skills | GitHub PR | Blocked | https://github.com/letta-ai/skills | Confirmed as a new high-fit cross-agent target: the README says the repo is intended for Letta Code, Claude Code, Codex CLI, and other skill-capable agents, and it explicitly invites contributors to create a skill, place it in the right location, explain how it was validated, and open a pull request, but this automation environment still cannot authenticate `gh` or reach `api.github.com`. |
+| vadimcomanescu/codex-skills | GitHub PR | Blocked | https://github.com/vadimcomanescu/codex-skills | Confirmed as a new relevant Codex-specific target: the README presents it as an installable Codex skills catalog, documents adding new skills under `skills/.curated` or `skills/.experimental`, and requires `python scripts/validate_skills.py` before opening a PR, but this automation environment still cannot authenticate `gh` or reach `api.github.com`. |
 
 ## Outreach Check-ins
 
@@ -141,6 +142,7 @@ This file tracks public promotion and directory submission attempts for Before Y
 | brightdata/awesome-claude-skills | Skipped | The repository is archived and read-only, so it is not a valid target for new submissions even though the topic is relevant. | Do not submit unless the repository is unarchived and reopened for contributions. |
 | intellectronica/awesome-skills | Blocked | The repository is clearly relevant and contribution-friendly: its README describes it as a directory of skills for AI agents and explicitly says contributors can submit a pull request adding a skill to `skills.yaml` or open an issue, but this automation environment still cannot authenticate `gh` or reach `api.github.com`. | Restore GitHub CLI authentication and rerun this pass to submit a directory entry PR or issue. |
 | product-on-purpose/pm-skills | Blocked | The repository is clearly relevant and contribution-friendly: it is a cross-agent PM skills library whose focus on discovery, validation, and product workflows aligns strongly with Before You Build, and its repo surface shows `CONTRIBUTING.md` plus active PRs, but this automation environment still cannot authenticate `gh` or reach `api.github.com`. | Restore GitHub CLI authentication and rerun this pass to submit a PM-skill PR. |
+| vadimcomanescu/codex-skills | Blocked | The repository is clearly relevant and contribution-friendly for a Codex-specific listing: its README positions it as an installable Codex skills catalog, documents the `skills/.curated` and `skills/.experimental` layout, and requires `python scripts/validate_skills.py` before opening a PR, but this automation environment still cannot authenticate `gh` or reach `api.github.com`. | Restore GitHub CLI authentication and rerun this pass to submit a Codex skills catalog PR. |
 
 ## Reusable Metadata
 
