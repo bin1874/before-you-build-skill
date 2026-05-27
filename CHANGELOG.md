@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-05-27 16:56:54 CST
+
+- Ran another post-schedule promotion follow-up pass after the five intended hourly runs had already completed.
+- Reviewed `openai/skills` and confirmed it as a new high-signal Codex target because the README presents it as the public Skills Catalog for Codex, the repo exposes `contributing.md`, and its pull request list shows active skill additions.
+- Confirmed GitHub submission remains blocked because `gh auth status` still reports the `bin1874` token is invalid, `gh repo view openai/skills` cannot reach `api.github.com`, and `tool_search` still exposes no automation-management tool to disable the already-completed hourly automation.
+
 ## 2026-05-27 15:55:16 CST
 
 - Ran another post-schedule promotion follow-up pass after the five intended hourly runs had already completed.
