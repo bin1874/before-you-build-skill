@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-05-28 05:48:30 CST
+
+- Ran another post-schedule promotion follow-up pass after the five intended hourly runs had already completed.
+- Reviewed `jdrhyne/agent-skills` and confirmed it as a new high-fit cross-agent target because the repository explicitly supports Clawdbot, Claude Code, Codex, and OpenClaw-style installation flows, and its Contributing section welcomes new skills via fork-and-PR.
+- Confirmed GitHub submission remains blocked because `gh auth status` still reports the `bin1874` token is invalid, `gh repo view jdrhyne/agent-skills` still fails with `error connecting to api.github.com`, and `tool_search` still exposes no automation-management tool to disable the already-completed hourly automation.
+
 ## 2026-05-27 23:05:11 CST
 
 - Ran another post-schedule promotion follow-up pass after the five intended hourly runs had already completed.
