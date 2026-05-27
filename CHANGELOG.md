@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-05-27 20:01:38 CST
+
+- Ran another post-schedule promotion pass after the five intended hourly runs had already completed.
+- Confirmed `natea/ar-claude-skills` as a new relevant, contribution-friendly target because its repository includes product and marketing skill tracks and explicitly welcomes new product-management-style skills via PR.
+- Recorded the blocked submission and outreach check-in in [`/Users/hbf/TOOLS/before-you-build-skill/docs/SUBMISSIONS.md`](/Users/hbf/TOOLS/before-you-build-skill/docs/SUBMISSIONS.md).
+- Verified again that `gh auth status` is invalid, `gh repo view` still cannot reach `api.github.com`, and no automation-management tool is exposed to disable the already-completed hourly automation.
+
 ## 2026-05-27 18:59:14 CST
 
 - Ran another post-schedule cleanup pass after the five intended hourly runs had already completed.
