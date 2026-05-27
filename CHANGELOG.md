@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-05-27 18:59:14 CST
+
+- Ran another post-schedule cleanup pass after the five intended hourly runs had already completed.
+- Reviewed `phuryn/pm-skills` and confirmed it as a new high-fit product-workflow target because the README centers the repo on discovery, strategy, pricing, and validation workflows, and `CONTRIBUTING.md` explicitly says new skills or larger changes should start with an issue before a focused PR.
+- Confirmed GitHub submission remains blocked because `gh auth status` still reports the `bin1874` token is invalid, `gh repo view phuryn/pm-skills` cannot reach `api.github.com`, and `tool_search` still exposes no automation-management tool to disable the already-completed hourly automation.
+
 ## 2026-05-27 17:57:56 CST
 
 - Ran another post-schedule promotion follow-up pass after the five intended hourly runs had already completed.
