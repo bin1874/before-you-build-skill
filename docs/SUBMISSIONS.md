@@ -1,6 +1,6 @@
 # Promotion Submissions
 
-Last updated: 2026-05-27 09:49:31 CST
+Last updated: 2026-05-27 10:51:11 CST
 
 This file tracks public promotion and directory submission attempts for Before You Build Skill.
 
@@ -62,11 +62,13 @@ This file tracks public promotion and directory submission attempts for Before Y
 | OpenClaw / ClawHub | Submission prep | Completed | docs/OPENCLAW.md | Added OpenClaw install notes, listing metadata, security statement, publish command, and submission checklist. Published via `clawhub v0.18.0`. |
 | Chat2AnyLLM/awesome-repo-configs | Registry config | Already listed | https://github.com/Chat2AnyLLM/awesome-repo-configs/blob/main/skill_repos.json | Confirmed `bin1874/before-you-build-skill` is already present in `skill_repos.json`; no duplicate submission needed. |
 | Codex automation | Scheduled task | Active | promote-before-you-build-skill-hourly | Created an hourly automation to run five additional GitHub skills promotion passes. The fifth pass completed at `2026-05-27 04:44:00 CST`; this follow-up pass confirmed the session still does not expose an automation-management tool, so the disable step is pending outside this run. |
+| posit-dev/skills | GitHub PR | Blocked | https://github.com/posit-dev/skills | Confirmed as a new high-signal target: README welcomes contributions, `CONTRIBUTING.md` documents adding a new `category/skill/SKILL.md`, updating `.claude-plugin/marketplace.json`, running `count-skill-tokens.py`, and opening a PR, but this automation environment still cannot authenticate `gh` or reach `api.github.com`. |
 
 ## Outreach Check-ins
 
 | Date | Result | Notes |
 |---|---|---|
+| 2026-05-27 10:51:11 CST | Submission blocked | Ran another post-schedule follow-up pass after the five intended hourly runs had already completed. Searched for additional GitHub skill registries and reviewed `posit-dev/skills`. Confirmed it as a strong new target because the repo is high-signal, its README explicitly welcomes contributions, and `CONTRIBUTING.md` documents a concrete new-skill PR flow with `category-name/your-skill-name/SKILL.md`, `.claude-plugin/marketplace.json` updates, and `count-skill-tokens.py`. No submission could be made because `gh auth status` still reports the `bin1874` token is invalid, `gh repo view posit-dev/skills` still cannot reach `api.github.com`, and `tool_search` still exposes no automation-management tool to disable the already-completed hourly automation. |
 | 2026-05-27 09:49:31 CST | Submission blocked | Ran another post-schedule follow-up pass after the five intended hourly runs had already completed. Searched for additional GitHub skill registries and reviewed `github/awesome-copilot`, `MiniMax-AI/skills`, `ConardLi/garden-skills`, and `CopilotKit/skills`. Confirmed `github/awesome-copilot` as the strongest new target because the repo is explicitly community-contributed, has a dedicated skills catalog, and its contribution docs describe adding new `skills/<skill-name>/SKILL.md` entries before opening a PR. No submission could be made because `gh auth status` still reports the `bin1874` token is invalid, GitHub CLI submission remains blocked, and `tool_search` still exposes no automation-management tool to disable the already-completed hourly automation. |
 | 2026-05-27 08:48:41 CST | Submission blocked | Ran another post-schedule follow-up pass after the five intended hourly runs had already completed. Searched for additional GitHub skill registries and reviewed `theneoai/awesome-skills`, which is a broad skill ecosystem repo with an explicit external-registry contribution path: its README says new third-party skill sources should be added by editing `external/sources.yml` and opening a PR. No submission could be made because `gh auth status` still reports the `bin1874` token is invalid, `gh repo view theneoai/awesome-skills` still cannot reach `api.github.com`, and `tool_search` still exposes no automation-management tool to disable the already-completed hourly automation. |
 | 2026-05-24 23:20:02 CST | No action needed | All submitted GitHub issues remain open with no maintainer comments yet. The kodustech PR is open and mergeable with clean status. |
@@ -128,6 +130,7 @@ This file tracks public promotion and directory submission attempts for Before Y
 | MiniMax-AI/skills | Deferred | The repository is active and contribution-friendly, but its catalog is centered on implementation-heavy development and media-generation skills, which is a weaker fit for Before You Build than broader cross-agent registries and discovery-focused directories. | Revisit after higher-fit blocked registries are attempted or if we package a more implementation-oriented variant. |
 | ConardLi/garden-skills | Deferred | The repository accepts new skills and supports Codex compatibility, but its current collection leans toward creator, design, and tooling workflows rather than product-validation or pre-build decision support. | Revisit if the maintainer broadens the workflow/planning category mix or if we adapt this skill into a creator-focused variant. |
 | CopilotKit/skills | Deferred | The repository welcomes new `SKILL.md` contributions, but the collection is scoped to CopilotKit setup, development, debugging, and integration workflows, making Before You Build a weaker fit than broader agent-skill directories. | Revisit if a CopilotKit-specific product-discovery workflow variant is created. |
+| posit-dev/skills | Blocked | The repository is clearly relevant, high-signal, and contribution-friendly: its README welcomes skill contributions, and `CONTRIBUTING.md` documents how to add a new `category-name/your-skill-name/SKILL.md`, update `.claude-plugin/marketplace.json`, run `count-skill-tokens.py`, and open a PR, but this automation environment still cannot authenticate `gh` or reach `api.github.com`. | Restore GitHub CLI authentication and rerun this pass to submit a new workflow/planning skill PR. |
 
 ## Reusable Metadata
 
