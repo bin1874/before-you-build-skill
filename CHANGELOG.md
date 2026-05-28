@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-05-28 20:13:59 CST
+
+- Ran another post-schedule promotion follow-up pass after the five intended hourly runs had already completed.
+- Reviewed `OpenHands/extensions` and confirmed it as a new high-signal target because it is the official public OpenHands extensions registry with explicit fork-and-PR instructions for adding `skills/<your-skill-name>/SKILL.md`.
+- Confirmed GitHub submission remains blocked because `gh auth status` still reports the `bin1874` token is invalid, `gh repo view OpenHands/extensions` still fails with `error connecting to api.github.com`, and `tool_search` still exposes no automation-management tool to disable the already-completed hourly automation.
+
 ## 2026-05-28 19:13:13 CST
 
 - Ran another post-schedule promotion follow-up pass after the five intended hourly runs had already completed.
