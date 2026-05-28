@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-05-28 17:10:48 CST
+
+- Ran another post-schedule promotion follow-up pass after the five intended hourly runs had already completed.
+- Reconfirmed `block/agent-skills` is still already logged as a high-signal blocked target, then reviewed `dotnet/skills`, `callstackincubator/agent-skills`, `twostraws/swift-agent-skills`, and `K-Dense-AI/scientific-agent-skills`; none beat the broader blocked cross-agent registries because each is domain- or vendor-specific.
+- Confirmed GitHub submission remains blocked because `gh auth status` still reports the `bin1874` token is invalid, `gh repo view block/agent-skills` still fails with `error connecting to api.github.com`, and `tool_search` still exposes no automation-management tool to disable the already-completed hourly automation.
+
 ## 2026-05-28 16:09:31 CST
 
 - Ran another post-schedule promotion follow-up pass after the five intended hourly runs had already completed.
