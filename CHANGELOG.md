@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-05-28 13:06:38 CST
+
+- Ran another post-schedule promotion follow-up pass after the five intended hourly runs had already completed.
+- Reviewed `ComposioHQ/awesome-claude-skills` and confirmed it as a new high-signal target because it is a broad curated skills directory with explicit cross-agent support plus contribution guidance that requires real use cases, duplicate checks, testing, and a pull request.
+- Confirmed GitHub submission remains blocked because `gh auth status` still reports the `bin1874` token is invalid, `gh repo view ComposioHQ/awesome-claude-skills` still fails with `error connecting to api.github.com`, and `tool_search` still exposes no automation-management tool to disable the already-completed hourly automation.
+
 ## 2026-05-28 12:04:18 CST
 
 - Ran another post-schedule promotion follow-up pass after the five intended hourly runs had already completed.
