@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-05-28 08:00:08 CST
+
+- Ran another post-schedule promotion follow-up pass after the five intended hourly runs had already completed.
+- Reviewed `anthropics/skills` and confirmed it as a new high-signal Agent Skills target because the repository presents itself as the public Agent Skills repo, its README includes a Partner Skills section for strong external examples, and its pull request queue shows active community partner-skill and workflow-skill additions.
+- Confirmed GitHub submission remains blocked because `gh auth status` still reports the `bin1874` token is invalid, `gh repo view anthropics/skills` still fails with `error connecting to api.github.com`, and `tool_search` still exposes no automation-management tool to disable the already-completed hourly automation.
+
 ## 2026-05-28 07:26:31 CST
 
 - Ran another post-schedule promotion follow-up pass after the five intended hourly runs had already completed.
