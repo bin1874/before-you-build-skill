@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-05-29 05:24:56 CST
+
+- Ran another post-schedule promotion follow-up pass after the five intended hourly runs had already completed.
+- Reviewed `EthanYolo01/Awesome-OpenClaw` and confirmed it as a new high-fit blocked target because its `CONTRIBUTING.md` explicitly accepts new curated entries via fork-and-PR and its OpenClaw skills coverage makes Before You Build a defensible fit.
+- Deferred `OpenSenseNova/SenseNova-Skills` because it is a vendor-owned office-workflow bundle and template source rather than a broad external directory or marketplace for third-party skill promotion.
+- Confirmed GitHub submission remains blocked because `gh auth status` still reports the `bin1874` token is invalid, `gh repo view` still cannot reach `api.github.com`, and `tool_search` still exposes no automation-management tool to disable the already-overrun hourly automation.
+
 ## 2026-05-29 04:24:17 CST
 
 - Ran another post-schedule promotion follow-up pass after the five intended hourly runs had already completed.
