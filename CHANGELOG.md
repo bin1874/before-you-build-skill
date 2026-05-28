@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-05-29 06:27:07 CST
+
+- Ran another post-schedule promotion follow-up pass after the five intended hourly runs had already completed.
+- Reviewed `affaan-m/everything-claude-code` and confirmed it as a new high-signal blocked target because the repository is cross-agent, has strong adoption, and its `CONTRIBUTING.md` documents a repo-specific `skills/<skill-name>/SKILL.md` submission flow with Codex and Cursor subset guidance.
+- Confirmed GitHub submission remains blocked because `gh auth status` still reports the `bin1874` token is invalid, `gh search repos` still fails with `error connecting to api.github.com`, and `tool_search` still exposes no automation-management tool to disable the already-overrun hourly automation.
+
 ## 2026-05-29 05:24:56 CST
 
 - Ran another post-schedule promotion follow-up pass after the five intended hourly runs had already completed.
