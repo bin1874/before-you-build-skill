@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-05-28 16:09:31 CST
+
+- Ran another post-schedule promotion follow-up pass after the five intended hourly runs had already completed.
+- Reviewed `Kilo-Org/kilo-marketplace` and confirmed it as a new high-signal target because it is an org-owned, community-driven cross-agent marketplace with an explicit pull-request contribution flow for new skills.
+- Skipped `Randroids-Dojo/skills` and `rknall/claude-skills` because both are personal marketplaces rather than strong broad-reach external directories.
+- Confirmed GitHub submission remains blocked because `gh auth status` still reports the `bin1874` token is invalid, `gh repo view Kilo-Org/kilo-marketplace` would still fail against unreachable `api.github.com`, and `tool_search` still exposes no automation-management tool to disable the already-completed hourly automation.
+
 ## 2026-05-28 15:08:06 CST
 
 - Ran another post-schedule promotion follow-up pass after the five intended hourly runs had already completed.
