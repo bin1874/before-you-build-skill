@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-05-29 01:20:53 CST
+
+- Ran another post-schedule promotion follow-up pass after the five intended hourly runs had already completed.
+- Reviewed `semgrep/skills` and `circlefin/skills`; neither beat the existing blocked backlog because they are respectively security-only and Circle-specific vendor catalogs rather than broad product-validation directories.
+- Confirmed GitHub submission remains blocked because `gh auth status` still reports the `bin1874` token is invalid, and no automation-management tool is exposed in this session to disable the already-completed hourly automation.
+
 ## 2026-05-29 00:18:25 CST
 
 - Ran another post-schedule promotion follow-up pass after the five intended hourly runs had already completed.
