@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-05-29 04:24:17 CST
+
+- Ran another post-schedule promotion follow-up pass after the five intended hourly runs had already completed.
+- Searched additional public GitHub skill registries and marketplaces, then recorded `huggingface/skills` as deferred because it is too Hugging Face-specific, `daymade/claude-code-skills` as skipped because it reads like a maintainer-owned bundle rather than a third-party intake path, and `randroids-dojo/skills` as skipped because it remains too small and low-signal versus the existing blocked backlog.
+- Confirmed GitHub submission remains blocked because `gh auth status` still reports the `bin1874` token is invalid, `gh repo view openai/skills` still fails with `error connecting to api.github.com`, and `tool_search` still exposes no automation-management tool to disable the already-overrun hourly automation.
+
 ## 2026-05-29 03:22:27 CST
 
 - Ran another post-schedule promotion follow-up pass after the five intended hourly runs had already completed.
