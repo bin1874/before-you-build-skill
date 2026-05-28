@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-05-28 10:01:45 CST
+
+- Ran another post-schedule promotion follow-up pass after the five intended hourly runs had already completed.
+- Reviewed `BankrBot/skills`, `vercel-labs/skills`, and `runkids/skillshare`, and did not find a stronger new submission target than the existing blocked backlog because the first is heavily crypto/market-workflow-specific while the latter two are tooling/sync utilities rather than credible third-party listing destinations.
+- Confirmed GitHub submission remains blocked because `gh auth status` still reports the `bin1874` token is invalid, and this session still exposes no automation-management tool to disable the already-completed hourly automation.
+
 ## 2026-05-28 09:00:37 CST
 
 - Ran another post-schedule promotion follow-up pass after the five intended hourly runs had already completed.
