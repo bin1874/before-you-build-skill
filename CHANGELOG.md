@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-05-28 18:12:27 CST
+
+- Ran another post-schedule promotion follow-up pass after the five intended hourly runs had already completed.
+- Reviewed `getsentry/skills`, `supabase/agent-skills`, and `am-will/codex-skills`; none beat the existing blocked backlog because they are respectively internal-team-specific, vendor-specific, or personal-bundle-oriented rather than broad external directories for third-party promotion.
+- Confirmed GitHub submission remains blocked because `gh auth status` still reports the `bin1874` token is invalid, `gh repo view` still fails with `error connecting to api.github.com`, and `tool_search` still exposes no automation-management tool to disable the already-completed hourly automation.
+
 ## 2026-05-28 17:10:48 CST
 
 - Ran another post-schedule promotion follow-up pass after the five intended hourly runs had already completed.
