@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-05-28 19:13:13 CST
+
+- Ran another post-schedule promotion follow-up pass after the five intended hourly runs had already completed.
+- Reviewed `binance/binance-skills-hub`, `qhkm/awesome-claw`, and `rylena/awesome-openclaw`; none beat the existing blocked backlog because they are respectively crypto-specific or lack a clear third-party skill submission path.
+- Confirmed GitHub submission remains blocked because `gh auth status` still reports the `bin1874` token is invalid, `gh repo view` still cannot reach `api.github.com`, and `tool_search` still exposes no automation-management tool to disable the already-completed hourly automation.
+
 ## 2026-05-28 18:12:27 CST
 
 - Ran another post-schedule promotion follow-up pass after the five intended hourly runs had already completed.
