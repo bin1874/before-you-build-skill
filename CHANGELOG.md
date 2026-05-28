@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-05-29 07:28:39 CST
+
+- Ran another post-schedule promotion follow-up pass after the five intended hourly runs had already completed.
+- Reviewed `RoggeOhta/awesome-codex-cli` and confirmed it as a new high-signal blocked target because it is a Codex CLI-specific ecosystem list, its Skills section already includes comparable cross-agent and PM-oriented repositories, and `CONTRIBUTING.md` explicitly allows either an issue submission or a fork-and-PR update to `README.md`.
+- Confirmed GitHub submission remains blocked because `gh auth status` still reports the `bin1874` token is invalid, `gh repo view openai/openai-python` still fails with `error connecting to api.github.com`, and no automation-management tool is exposed in this session to disable the already-overrun hourly automation.
+
 ## 2026-05-29 06:27:07 CST
 
 - Ran another post-schedule promotion follow-up pass after the five intended hourly runs had already completed.
