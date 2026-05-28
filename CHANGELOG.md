@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-05-29 02:22:38 CST
+
+- Ran another post-schedule promotion follow-up pass after the five intended hourly runs had already completed.
+- Reviewed `proflead/codex-skills-library` and confirmed it as a new high-signal Codex-specific target because its README presents it as a curated skills library and explicitly welcomes issues or pull requests for new skills, improvements, or fixes.
+- Confirmed GitHub submission remains blocked because `gh auth status` still reports the `bin1874` token is invalid, `gh repo view` still cannot reach `api.github.com`, and `tool_search` still exposes no automation-management tool to disable the already-completed hourly automation.
+
 ## 2026-05-29 01:20:53 CST
 
 - Ran another post-schedule promotion follow-up pass after the five intended hourly runs had already completed.
