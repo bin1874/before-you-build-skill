@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-05-28 15:08:06 CST
+
+- Ran another post-schedule promotion follow-up pass after the five intended hourly runs had already completed.
+- Reviewed `trailofbits/skills-curated` and confirmed it as a new high-signal target because it is a curated community marketplace for Claude Code plugins with explicit issue and PR intake paths for external third-party skills and marketplaces.
+- Confirmed GitHub submission remains blocked because `gh auth status` still reports the `bin1874` token is invalid, `gh repo view trailofbits/skills-curated` still fails with `error connecting to api.github.com`, and `tool_search` still exposes no automation-management tool to disable the already-completed hourly automation.
+
 ## 2026-05-28 14:07:30 CST
 
 - Ran another post-schedule promotion follow-up pass after the five intended hourly runs had already completed.
