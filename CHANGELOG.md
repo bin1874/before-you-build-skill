@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-05-28 22:15:47 CST
+
+- Ran another post-schedule promotion follow-up pass after the five intended hourly runs had already completed.
+- Reviewed `CodeAlive-AI/agents-reflection-skills`, `getsentry/sentry-agent-skills`, `managedcode/dotnet-skills`, and `pjt222/agent-almanac`; none beat the existing blocked backlog because they are respectively a maintained skill bundle, vendor-specific, framework-specific, or a small personal catalog.
+- Confirmed GitHub submission remains blocked because `gh auth status` still reports the `bin1874` token is invalid, `gh repo view block/agent-skills` still fails with `error connecting to api.github.com`, and no automation-management tool is exposed in this session to disable the already-completed hourly automation.
+
 ## 2026-05-28 21:15:10 CST
 
 - Ran another post-schedule promotion follow-up pass after the five intended hourly runs had already completed.
