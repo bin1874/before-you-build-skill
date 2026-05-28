@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-05-28 09:00:37 CST
+
+- Ran another post-schedule promotion follow-up pass after the five intended hourly runs had already completed.
+- Reviewed `deanpeters/Product-Manager-Skills` and confirmed it as a new high-fit target because it is a Codex-compatible PM skills framework with explicit pre-build validation workflows such as `pol-probe`, `problem-statement`, and positioning exercises that align tightly with Before You Build.
+- Confirmed GitHub submission remains blocked because `gh auth status` still reports the `bin1874` token is invalid, `gh repo view deanpeters/Product-Manager-Skills` still fails with `error connecting to api.github.com`, and `tool_search` still exposes no automation-management tool to disable the already-completed hourly automation.
+
 ## 2026-05-28 08:00:08 CST
 
 - Ran another post-schedule promotion follow-up pass after the five intended hourly runs had already completed.
