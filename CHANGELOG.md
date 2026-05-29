@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-05-29 10:32:10 CST
+
+- Ran another post-schedule promotion follow-up pass after the five intended hourly runs had already completed.
+- Re-reviewed `netresearch/claude-code-marketplace` and upgraded it from deferred to blocked because the current README now exposes an explicit `Adding a Skill` path via `.claude-plugin/marketplace.json`, making it a valid third-party submission target for Before You Build.
+- Confirmed GitHub submission remains blocked because `gh auth status` still reports the `bin1874` token is invalid, and `tool_search` still exposes no automation-management tool to disable the already-overrun hourly automation.
+
 ## 2026-05-29 09:32:30 CST
 
 - Ran another post-schedule promotion follow-up pass after the five intended hourly runs had already completed.
