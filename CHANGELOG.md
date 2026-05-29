@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-05-29 08:29:48 CST
+
+- Ran another post-schedule promotion follow-up pass after the five intended hourly runs had already completed.
+- Reviewed `wshobson/agents` and confirmed it as a new high-signal blocked target because it is a large multi-harness marketplace for Claude Code, Codex CLI, Cursor, OpenCode, Gemini CLI, and GitHub Copilot, and its published docs include an explicit add-a-skill path under `plugins/{plugin-name}/skills/{skill-name}/SKILL.md`.
+- Confirmed GitHub submission remains blocked because `gh auth status` still reports the `bin1874` token is invalid, `gh repo view wshobson/agents` still fails with `error connecting to api.github.com`, and `tool_search` still exposes no automation-management tool to disable the already-overrun hourly automation.
+
 ## 2026-05-29 07:28:39 CST
 
 - Ran another post-schedule promotion follow-up pass after the five intended hourly runs had already completed.
