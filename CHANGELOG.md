@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-05-30 02:52:43 CST
+
+- Ran another post-schedule promotion follow-up pass after the five intended hourly runs had already completed.
+- Rechecked the submission tracker first, then searched additional public GitHub skill directories, Claude/Codex/Cursor catalogs, and agent-skills topic results; deferred `bergside/awesome-design-skills` as too design-system-specific for this workflow, skipped `monte-carlo-data/mc-agent-toolkit` as a vendor-specific Monte Carlo observability toolkit rather than a neutral discovery venue, and skipped `anthropics/claude-plugins-official` because it is an official plugin directory rather than a standalone skills listing target.
+- Confirmed GitHub submission remains blocked because `gh auth status` still reports the `bin1874` token is invalid, `gh repo view` still cannot reach `api.github.com`, and `tool_search` still exposes no automation-management tool to disable the already-overrun hourly automation.
+
 ## 2026-05-30 01:51:07 CST
 
 - Ran another post-schedule promotion follow-up pass after the five intended hourly runs had already completed.
