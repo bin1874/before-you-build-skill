@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-05-29 13:36:12 CST
+
+- Ran another post-schedule promotion follow-up pass after the five intended hourly runs had already completed.
+- Rechecked the submission tracker first, then searched additional public GitHub pages for cross-agent skill directories, Codex/Cursor/Claude marketplaces, and OpenClaw-adjacent registries; reviewed `openclaw/clawhub` and `microsoft/apm`, but neither is a valid GitHub-submission destination for this automation because ClawHub routes additions through direct registry publishing and APM is a package manager rather than a listing catalog.
+- Confirmed GitHub submission remains blocked because `gh auth status` still reports the `bin1874` token is invalid, and `tool_search` still exposes no automation-management tool to disable the already-overrun hourly automation.
+
 ## 2026-05-29 12:34:29 CST
 
 - Ran another post-schedule promotion follow-up pass after the five intended hourly runs had already completed.
