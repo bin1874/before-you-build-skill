@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-05-29 22:49:08 CST
+
+- Ran another post-schedule promotion follow-up pass after the five intended hourly runs had already completed.
+- Rechecked the submission tracker first, then searched additional public GitHub skill directories and marketplaces; deferred `gtmagents/gtm-agents` as too GTM-specific, deferred `nexscope-ai/eCommerce-Skills` as too e-commerce-specific, skipped `dceoy/speckit-agent-skills` as a personal Spec Kit bundle, and skipped `cleodin/antigravity-awesome-skills` because the surfaced repo quality did not clear the outbound-promotion bar.
+- Confirmed GitHub submission remains blocked because `gh auth status` still reports the `bin1874` token is invalid, `gh repo view github/awesome-copilot` still fails against `api.github.com`, and no automation-management tool is exposed in this session to disable the already-overrun hourly automation.
+
 ## 2026-05-29 21:49:00 CST
 
 - Ran another post-schedule promotion follow-up pass after the five intended hourly runs had already completed.
