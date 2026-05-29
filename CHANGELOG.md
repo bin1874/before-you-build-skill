@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-05-29 23:48:30 CST
+
+- Ran another post-schedule promotion follow-up pass after the five intended hourly runs had already completed.
+- Rechecked the submission tracker first, then searched additional public GitHub skill directories, Codex/Cursor/Claude catalogs, and OpenClaw-adjacent lists; confirmed `VoltAgent/awesome-agent-skills` as a fresh high-signal target because its README presents it as a hand-picked curated cross-agent skills list with `Marketing & Growth` plus `Community Skills` sections and an explicit “We welcome contributions” intake path.
+- Confirmed GitHub submission remains blocked because `gh auth status` still reports the `bin1874` token is invalid, `tool_search` still exposes no automation-management tool to disable the already-overrun hourly automation, and this session therefore cannot complete the requested GitHub PR or issue flow.
+
 ## 2026-05-29 22:49:08 CST
 
 - Ran another post-schedule promotion follow-up pass after the five intended hourly runs had already completed.
