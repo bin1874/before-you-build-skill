@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-05-30 00:49:41 CST
+
+- Ran another post-schedule promotion follow-up pass after the five intended hourly runs had already completed.
+- Rechecked the submission tracker first, then searched additional public GitHub skill directories, Codex/Cursor/Claude catalogs, and plugin marketplaces; deferred `EricGrill/agents-skills-plugins` because its contribution flow is centered on repo-native plugin packaging and marketplace metadata rather than directly listing an existing standalone skill repository, and no stronger genuinely new submission destination surfaced beyond the existing blocked backlog.
+- Confirmed GitHub submission remains blocked because `gh auth status` still reports the `bin1874` token is invalid, and `tool_search` still exposes no automation-management tool to disable the already-overrun hourly automation.
+
 ## 2026-05-29 23:48:30 CST
 
 - Ran another post-schedule promotion follow-up pass after the five intended hourly runs had already completed.
