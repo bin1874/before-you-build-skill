@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-05-29 16:40:48 CST
+
+- Ran another post-schedule promotion follow-up pass after the five intended hourly runs had already completed.
+- Rechecked the submission tracker first, then searched additional public GitHub pages for cross-agent skill directories, Codex/Cursor/Claude marketplaces, and OpenClaw-adjacent registries; skipped `numman-ali/n-skills` because it looks like a single-maintainer marketplace, skipped `hyperskill/claude-code-marketplace` because it reads as a Hyperskill-owned plugin catalog rather than a third-party listing venue, and skipped `hashgraph-online/registry-broker-skills` because it is a product-specific registry skill rather than a public external directory.
+- Confirmed GitHub submission remains blocked because `gh auth status` still reports the `bin1874` token is invalid, and `tool_search` still exposes no automation-management tool to disable the already-overrun hourly automation.
+
 ## 2026-05-29 13:36:12 CST
 
 - Ran another post-schedule promotion follow-up pass after the five intended hourly runs had already completed.
