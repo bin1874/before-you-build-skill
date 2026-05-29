@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-05-30 07:58:28 CST
+
+- Rechecked the submission tracker first, then searched additional public GitHub pages for agent-skill registries, Codex/Claude/Cursor/OpenClaw catalogs, and `SKILL.md` directories; the search only resurfaced already-logged targets such as `WordPress/agent-skills`, `agentskill-sh/ags`, `RoggeOhta/awesome-codex-cli`, `agent-skills-hub/agent-skills-hub`, and `daymade/claude-code-skills`, so no stronger genuinely new outreach venue surfaced.
+- Confirmed GitHub submission remains blocked because `gh auth status` still reports the `bin1874` token is invalid, and `tool_search` still exposes no automation-management tool to disable the already-overrun hourly automation.
+
 ## 2026-05-30 06:57:29 CST
 
 - Rechecked the submission tracker first, then searched additional public GitHub skill directories, Claude/Codex/Cursor catalogs, OpenClaw-adjacent registries, and `SKILL.md` listings; no stronger genuinely new venue surfaced, and the only fresh candidate worth review, `markdown-viewer/skills`, was skipped because its contribution-friendly catalog is tightly scoped to Markdown diagrams, visualization, and technical-documentation rendering rather than broad pre-build product-validation workflows.
