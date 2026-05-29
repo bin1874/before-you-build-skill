@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-05-29 21:49:00 CST
+
+- Ran another post-schedule promotion follow-up pass after the five intended hourly runs had already completed.
+- Rechecked the submission tracker first, then searched additional public GitHub skill directories, Codex/Cursor/Claude catalogs, and OpenClaw-adjacent awesome lists; confirmed `alvinreal/awesome-openclaw` as a fresh high-fit target because its `CONTRIBUTING.md` explicitly allows useful recent OpenClaw resources, documents the README entry format, and provides a clear third-party PR path for the `Skills & Registries` section.
+- Confirmed GitHub submission remains blocked because `gh auth status` still reports the `bin1874` token is invalid, `gh repo view` still fails against `api.github.com`, and `tool_search` still exposes no automation-management tool to disable the already-overrun hourly automation.
+
 ## 2026-05-29 20:47:06 CST
 
 - Ran another post-schedule promotion follow-up pass after the five intended hourly runs had already completed.
