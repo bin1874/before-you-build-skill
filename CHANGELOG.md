@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-05-29 09:32:30 CST
+
+- Ran another post-schedule promotion follow-up pass after the five intended hourly runs had already completed.
+- Searched additional public GitHub pages for cross-agent skill registries, Codex/Cursor/Claude skill catalogs, and OpenClaw-adjacent marketplaces, then recorded `luna-prompts/skillnote` as skipped because it appears to be a low-signal self-hosted registry product without a clearly surfaced third-party submission path.
+- Confirmed GitHub submission remains blocked because `gh auth status` still reports the `bin1874` token is invalid, `gh search repos` is unavailable in this environment, and `tool_search` still exposes no automation-management tool to disable the already-overrun hourly automation.
+
 ## 2026-05-29 08:29:48 CST
 
 - Ran another post-schedule promotion follow-up pass after the five intended hourly runs had already completed.
