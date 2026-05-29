@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-05-30 01:51:07 CST
+
+- Ran another post-schedule promotion follow-up pass after the five intended hourly runs had already completed.
+- Rechecked the submission tracker first, then searched additional public GitHub skill directories, Claude/Codex/Cursor catalogs, and OpenClaw-adjacent registries; deferred `flagos-ai/skills` as too FlagOS-specific, skipped `Olshansk/agent-skills` as an explicitly personal skills repo, and skipped `mysticaltech/marketingskills` as a maintainer-owned marketing-skills fork rather than a neutral shared directory.
+- Confirmed GitHub submission remains blocked because `gh auth status` still reports the `bin1874` token is invalid, `gh repo view` still fails against `api.github.com`, and `tool_search` still exposes no automation-management tool to disable the already-overrun hourly automation.
+
 ## 2026-05-30 00:49:41 CST
 
 - Ran another post-schedule promotion follow-up pass after the five intended hourly runs had already completed.
