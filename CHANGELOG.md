@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-05-29 11:33:08 CST
+
+- Ran another post-schedule promotion follow-up pass after the five intended hourly runs had already completed.
+- Searched additional public GitHub skill directories and marketplaces, then skipped `softaworks/agent-toolkit` because it presents as a single-maintainer opinionated skill bundle rather than a broader community directory or marketplace suitable for outbound promotion.
+- Confirmed GitHub submission remains blocked because `gh auth status` still reports the `bin1874` token is invalid, and `tool_search` still exposes no automation-management tool to disable the already-overrun hourly automation.
+
 ## 2026-05-29 10:32:10 CST
 
 - Ran another post-schedule promotion follow-up pass after the five intended hourly runs had already completed.
