@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-05-30 05:56:24 CST
+
+- Rechecked the submission tracker first, then searched additional public GitHub skill directories, Codex/Claude/Cursor catalogs, OpenClaw-adjacent lists, and `SKILL.md` registries; no stronger genuinely new venue surfaced, but `dmgrok/agent_skills_directory` was re-reviewed and upgraded from deferred to blocked because its current README now exposes a concrete `Create a New Provider` issue flow with automated validation and auto-PR handling.
+- Confirmed GitHub submission remains blocked because `gh auth status` still reports the `bin1874` token is invalid, and `tool_search` still exposes no automation-management tool to disable the already-overrun hourly automation.
+
 ## 2026-05-30 04:55:10 CST
 
 - Ran another post-schedule promotion follow-up pass after the five intended hourly runs had already completed.
