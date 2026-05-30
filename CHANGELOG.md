@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-05-30 16:08:05 CST
+
+- Rechecked the submission tracker first, then searched fresh public GitHub results for additional Codex, Claude, Cursor, OpenClaw, and cross-agent `SKILL.md` directories; no stronger genuinely new outreach venue surfaced beyond the existing blocked backlog.
+- Logged `brabaflow/openclaw-skill` as skipped because it is a single maintainer-authored OpenClaw documentation package rather than a community directory or marketplace, and logged `harness/harness-skills` as deferred because it is tightly vendor-scoped to Harness CI/CD workflows.
+- Confirmed GitHub submission remains blocked because `gh auth status` still reports the `bin1874` token is invalid, and `tool_search` still exposes no automation-management tool to disable the already-overrun hourly automation.
+
 ## 2026-05-30 15:05:58 CST
 
 - Rechecked the submission tracker first, then searched fresh public GitHub results for cross-agent skill registries, Codex/Claude/Cursor/OpenClaw skill catalogs, and `SKILL.md` marketplaces; no stronger genuinely new outreach venue surfaced beyond the existing blocked backlog.
