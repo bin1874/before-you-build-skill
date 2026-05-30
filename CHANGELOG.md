@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-05-30 13:03:55 CST
+
+- Rechecked the submission tracker first, then searched additional public GitHub pages and topic results for AI agent skill registries, Claude/Codex/Cursor/OpenClaw marketplaces, and `SKILL.md` collections; no stronger genuinely new outreach venue surfaced beyond the existing blocked backlog.
+- Logged `Digidai/product-manager-skills` as skipped because it is a single cross-agent PM skill package rather than a broader public directory or marketplace for third-party submissions, and logged `FreedomIntelligence/OpenClaw-Medical-Skills` as deferred because it is explicitly medical and biomedical-research focused rather than a broad pre-build product-validation venue.
+- Confirmed GitHub submission remains blocked because `gh auth status` still reports the `bin1874` token is invalid, and `tool_search` still exposes no automation-management tool to disable the already-overrun hourly automation.
+
 ## 2026-05-30 12:03:37 CST
 
 - Rechecked the submission tracker first, then searched additional public GitHub pages for agent-skill registries, Claude/Codex/Cursor/OpenClaw marketplaces, and `SKILL.md` collections; the search mostly resurfaced already-logged targets such as `OpenHands/extensions`, `OneWave-AI/claude-skills`, `dotnet/skills`, and `seb1n/awesome-ai-agent-skills`, so no stronger genuinely new outreach venue surfaced.
