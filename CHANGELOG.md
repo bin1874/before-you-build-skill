@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-05-31 05:24:32 CST
+
+- Rechecked the submission tracker first, then searched fresh public GitHub results for additional AI agent skill, Claude skill, Cursor skill, Codex skill, OpenClaw skill, `SKILL.md` directories, registries, and marketplaces; the search mostly resurfaced already-logged venues and did not uncover a stronger genuinely new submission target.
+- Logged `hashgraph-online/awesome-codex-plugins` as skipped because it is a contribution-friendly Codex directory, but it curates plugin bundles and mirrored marketplace entries rather than standalone third-party `SKILL.md` repositories like Before You Build.
+- Confirmed GitHub submission remains blocked because `gh auth status` still reports the `bin1874` token is invalid, and `tool_search` still does not expose any automation-management tool that can disable the already-overrun hourly automation.
+
 ## 2026-05-31 04:22:55 CST
 
 - Rechecked the submission tracker first, then searched fresh public GitHub results for additional AI agent skill, Claude skill, Cursor skill, Codex skill, OpenClaw skill, `SKILL.md` directories, registries, and marketplaces; the search mostly resurfaced already-logged venues and did not uncover a stronger genuinely new submission target.
