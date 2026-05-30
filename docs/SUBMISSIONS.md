@@ -1,6 +1,6 @@
 # Promotion Submissions
 
-Last updated: 2026-05-30 11:01:45 CST
+Last updated: 2026-05-30 12:03:37 CST
 
 This file tracks public promotion and directory submission attempts for Before You Build Skill.
 
@@ -57,6 +57,7 @@ This file tracks public promotion and directory submission attempts for Before Y
 
 | Channel | Type | Status | Link | Notes |
 |---|---|---|---|---|
+| 2026-05-30 12:03:37 CST | No stronger new target found | Rechecked `docs/SUBMISSIONS.md` first to avoid duplicates, then searched additional public GitHub pages for agent-skill registries, Claude/Codex/Cursor/OpenClaw marketplaces, and `SKILL.md` collections. The search mostly resurfaced already-logged targets such as `OpenHands/extensions`, `OneWave-AI/claude-skills`, `dotnet/skills`, and `seb1n/awesome-ai-agent-skills`; no stronger genuinely new outreach venue surfaced. The only newly surfaced repositories worth explicit rejection were `claude-office-skills/skills`, which remains too office-document-execution-specific for this cross-agent product-validation skill, and `runkids/skillshare`, which remains a skill sync utility rather than a third-party listing destination. No submission could be made because `gh auth status` still reports the `bin1874` token is invalid, and `tool_search` still exposes no automation-management tool to disable the already-overrun hourly automation. |
 | GitHub release | Release | Published | https://github.com/bin1874/before-you-build-skill/releases/tag/v0.1.1 | Published after README, template, and public-case example improvements. |
 | GitHub Discussions | Repository setting | Enabled | https://github.com/bin1874/before-you-build-skill/discussions | Enabled for community idea reviews and compatibility notes. |
 | GitHub Discussions | Discussion | Published | https://github.com/bin1874/before-you-build-skill/discussions/1 | First prompt: "Show what you are about to build". |

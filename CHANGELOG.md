@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-05-30 12:03:37 CST
+
+- Rechecked the submission tracker first, then searched additional public GitHub pages for agent-skill registries, Claude/Codex/Cursor/OpenClaw marketplaces, and `SKILL.md` collections; the search mostly resurfaced already-logged targets such as `OpenHands/extensions`, `OneWave-AI/claude-skills`, `dotnet/skills`, and `seb1n/awesome-ai-agent-skills`, so no stronger genuinely new outreach venue surfaced.
+- Confirmed the only newly surfaced repositories worth explicit rejection were `claude-office-skills/skills`, which remains too office-document-execution-specific for this cross-agent product-validation skill, and `runkids/skillshare`, which remains a sync/install utility rather than a public listing destination for third-party skills.
+- Confirmed GitHub submission remains blocked because `gh auth status` still reports the `bin1874` token is invalid, and `tool_search` still exposes no automation-management tool to disable the already-overrun hourly automation.
+
 ## 2026-05-30 11:01:45 CST
 
 - Rechecked the submission tracker first, then searched additional public GitHub pages for AI agent skill registries, Claude/Codex/Cursor/OpenClaw marketplaces, and `SKILL.md` collections; no stronger genuinely new outreach venue surfaced, and the only genuinely fresh repository worth logging was `803/skills-supply`, which was skipped because its surfaced README positions it as an `agents.toml`-driven skill source manager rather than a public listing destination for third-party skills.
