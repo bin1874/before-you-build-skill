@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-05-31 01:20:45 CST
+
+- Rechecked the submission tracker first, then searched fresh public GitHub results for additional AI agent skill, Claude skill, Cursor skill, Codex skill, OpenClaw skill, `SKILL.md` directories, registries, and marketplaces; the only genuinely fresh candidate worth logging was `glebis/claude-skills`.
+- Logged `glebis/claude-skills` as skipped because, despite open PR instructions and healthy activity, it presents as a maintainer-owned bundled skill suite with overlapping JTBD/product workflow coverage rather than a stronger neutral community directory or marketplace than the existing backlog.
+- Confirmed GitHub submission remains blocked because `gh auth status` still reports the `bin1874` token is invalid, and `tool_search` still did not expose an automation-management tool that could disable the already-overrun hourly automation.
+
 ## 2026-05-31 00:20:06 CST
 
 - Rechecked the submission tracker first, then searched fresh public GitHub results for additional AI agent skill, Claude skill, Cursor skill, Codex skill, OpenClaw skill, `SKILL.md` directories, registries, and marketplaces; the only genuinely fresh candidate worth logging was `aiskillstore/marketplace`.
