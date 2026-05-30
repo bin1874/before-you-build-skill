@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-05-30 09:08:27 CST
+
+- Re-submitted `brandonhimpfen/awesome-ai-coding-agents` as a proper pull request after the earlier issue-only submission was rejected by the maintainer.
+- Updated `LessUp/awesome-claude-skills-zh` PR #1 so it only changes `README.md`; the remaining CI failure now appears to be caused by the repository workflow expecting English README section markers that are absent from the Chinese README.
+- Updated `docs/SUBMISSIONS.md` with the new PR link and the corrected LessUp status.
+
 ## 2026-05-30 09:01:06 CST
 
 - Rechecked the submission tracker first, then searched additional public GitHub pages for AI agent skill registries, Claude/Codex/Cursor/OpenClaw marketplaces, and `SKILL.md` collections; no stronger genuinely new outreach venue surfaced, and the only fresh repository worth logging, `obviousworks/Claude-AI-skills-collection-2026`, was skipped because its surfaced repository still looks too thin and low-stewardship to beat the stronger blocked backlog.

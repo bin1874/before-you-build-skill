@@ -1,6 +1,6 @@
 # Promotion Submissions
 
-Last updated: 2026-05-30 09:01:06 CST
+Last updated: 2026-05-30 09:08:27 CST
 
 This file tracks public promotion and directory submission attempts for Before You Build Skill.
 
@@ -16,6 +16,7 @@ This file tracks public promotion and directory submission attempts for Before Y
 | heilcheng/awesome-agent-skills | GitHub issue | Submitted | https://github.com/heilcheng/awesome-agent-skills/issues/246 | Suggested the skill for the Agent Skill Index. |
 | libukai/awesome-agent-skills | GitHub issue | Submitted | https://github.com/libukai/awesome-agent-skills/issues/67 | Suggested the skill for the Chinese Agent Skills guide. |
 | brandonhimpfen/awesome-ai-coding-agents | GitHub issue | Submitted | https://github.com/brandonhimpfen/awesome-ai-coding-agents/issues/16 | Suggested the skill as a related AI coding agent workflow resource. |
+| brandonhimpfen/awesome-ai-coding-agents | GitHub PR | Submitted | https://github.com/brandonhimpfen/awesome-ai-coding-agents/pull/18 | Re-submitted according to `CONTRIBUTING.md` after the issue-only submission was rejected; PR only updates `README.md`. |
 | karanb192/awesome-claude-skills | GitHub issue | Submitted | https://github.com/karanb192/awesome-claude-skills/issues/90 | Suggested a Claude Code-compatible entry. |
 | Chat2AnyLLM/awesome-claude-skills | GitHub issue | Submitted | https://github.com/Chat2AnyLLM/awesome-claude-skills/issues/34 | Suggested the repo as a Claude Skills source. |
 | JayLZhou/Awesome-Agent-Skills | GitHub issue | Submitted | https://github.com/JayLZhou/Awesome-Agent-Skills/issues/6 | Suggested the skill for an Agent Skills collection. |
@@ -29,7 +30,7 @@ This file tracks public promotion and directory submission attempts for Before Y
 | majiayu000/claude-skill-registry-core | GitHub issue | Submitted | https://github.com/majiayu000/claude-skill-registry-core/issues/176 | Suggested the skill for a Claude skill registry that accepts issue submissions. |
 | jaydeepkarale/awesome-agent-skills | GitHub PR | Submitted | https://github.com/jaydeepkarale/awesome-agent-skills/pull/2 | Added a multi-agent skill folder and README entry. |
 | junminhong/awesome-agent-skills | GitHub PR | Submitted | https://github.com/junminhong/awesome-agent-skills/pull/6 | Added a Codex business/marketing skill entry. |
-| LessUp/awesome-claude-skills-zh | GitHub PR | Submitted | https://github.com/LessUp/awesome-claude-skills-zh/pull/1 | Added a Chinese Claude Skills entry with a localized `SKILL.md`. |
+| LessUp/awesome-claude-skills-zh | GitHub PR | Submitted | https://github.com/LessUp/awesome-claude-skills-zh/pull/1 | Updated the PR to only change `README.md`; current CI failure appears to come from the repository workflow expecting English `## Skills` / `## Getting Started` headings that the Chinese README does not have. |
 | ComposioHQ/awesome-codex-skills | GitHub PR | Submitted | https://github.com/ComposioHQ/awesome-codex-skills/pull/84 | Added an external Codex skill entry with install command. |
 | doanbactam/agent-skills-directory | GitHub issue | Submitted | https://github.com/doanbactam/agent-skills-directory/issues/56 | Requested indexing in a SKILL.md directory for coding assistants. |
 | beshkenadze/claude-skills-marketplace | GitHub PR | Submitted | https://github.com/beshkenadze/claude-skills-marketplace/pull/2 | Added a marketplace skill under `skills/development/before-you-build`. |
