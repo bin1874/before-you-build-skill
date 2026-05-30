@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-05-30 10:01:21 CST
+
+- Rechecked the submission tracker first, then searched additional public GitHub pages for AI agent skill registries, Claude/Codex/Cursor/OpenClaw marketplaces, and `SKILL.md` collections; no stronger genuinely new outreach venue surfaced, and the only genuinely fresh candidates worth logging were `cblecker/claude-plugins`, which was skipped as an explicitly personal 3-star plugin collection, and `iflytek/skillhub`, which was skipped because it is registry software rather than a public GitHub listing destination.
+- Confirmed GitHub submission remains blocked because `gh auth status` still reports the `bin1874` token is invalid, `gh repo view block/agent-skills` still fails with `error connecting to api.github.com`, and `tool_search` still exposes no automation-management tool to disable the already-overrun hourly automation.
+
 ## 2026-05-30 09:08:27 CST
 
 - Re-submitted `brandonhimpfen/awesome-ai-coding-agents` as a proper pull request after the earlier issue-only submission was rejected by the maintainer.
