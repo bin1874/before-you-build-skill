@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-05-30 23:18:47 CST
+
+- Rechecked the submission tracker first, then searched fresh public GitHub results for additional AI agent skill, Claude skill, Cursor skill, Codex skill, OpenClaw skill, `SKILL.md` directories, registries, and marketplaces; the strongest genuinely new target this pass was `ZeroPointRepo/awesome-hermes-skills`.
+- Logged `ZeroPointRepo/awesome-hermes-skills` as a blocked high-fit directory because its README explicitly welcomes PRs for maintained cross-agent skills with working `SKILL.md`, but this environment still cannot authenticate `gh` or reach `api.github.com` to submit.
+- Confirmed GitHub submission remains blocked because `gh auth status` still reports the `bin1874` token is invalid, and `tool_search` still did not expose an automation-management tool to disable the already-overrun hourly automation.
+
 ## 2026-05-30 22:17:22 CST
 
 - Rechecked the submission tracker first, then searched fresh public GitHub results for additional AI agent skill, Claude skill, Cursor skill, Codex skill, OpenClaw skill, `SKILL.md` directories, registries, and marketplaces; the results only resurfaced already-logged targets, so no genuinely fresh outreach target cleared the bar.
