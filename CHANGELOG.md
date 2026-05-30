@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-05-30 15:05:58 CST
+
+- Rechecked the submission tracker first, then searched fresh public GitHub results for cross-agent skill registries, Codex/Claude/Cursor/OpenClaw skill catalogs, and `SKILL.md` marketplaces; no stronger genuinely new outreach venue surfaced beyond the existing blocked backlog.
+- Logged `howells/arc` as skipped because it is a maintainer-owned SDLC plugin bundle rather than a neutral third-party listing destination, and logged `TheQtCompanyRnD/agent-skills` as deferred because it is an official Qt engineering catalog rather than a broad product-validation venue.
+- Confirmed GitHub submission remains blocked because `gh auth status` still reports the `bin1874` token is invalid, and no automation-management tool is exposed in this session to disable the already-overrun hourly automation.
+
 ## 2026-05-30 14:05:33 CST
 
 - Rechecked the submission tracker first, then searched additional public GitHub pages for cross-agent skill registries, Claude/Codex/Cursor/OpenClaw marketplaces, and `SKILL.md` collections; the search mostly resurfaced already-logged blocked targets such as `tech-leads-club/agent-skills`, `openai/skills`, `github/awesome-copilot`, and `product-on-purpose/pm-skills`, so no stronger genuinely new outreach venue surfaced.
