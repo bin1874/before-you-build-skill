@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-05-31 07:27:36 CST
+
+- Rechecked the submission tracker first, then searched fresh public GitHub results for additional AI agent skill, Claude skill, Cursor skill, Codex skill, OpenClaw skill, `SKILL.md` directories, registries, and marketplaces; the strongest genuinely fresh target this pass was `rohitg00/awesome-openclaw`.
+- Logged `rohitg00/awesome-openclaw` as blocked because it is a contribution-friendly OpenClaw ecosystem list with explicit `Skills & Plugins` coverage and a documented PR flow, and logged `vincentkoc/awesome-openclaw` as deferred because the surfaced page did not show enough repo-specific intake detail or acceptance criteria to outrank the stronger OpenClaw lists already in backlog.
+- Confirmed GitHub submission remains blocked because `gh auth status` still reports the `bin1874` token is invalid, and `gh repo view rohitg00/awesome-openclaw`, `gh repo view vincentkoc/awesome-openclaw`, and `gh repo view SamurAIGPT/awesome-openclaw` still fail with `error connecting to api.github.com`.
+
 ## 2026-05-31 06:25:56 CST
 
 - Rechecked the submission tracker first, then searched fresh public GitHub results for additional AI agent skill, Claude skill, Cursor skill, Codex skill, OpenClaw skill, `SKILL.md` directories, registries, and marketplaces; the only genuinely fresh repository worth explicit logging was `cloudflare/skills`.
