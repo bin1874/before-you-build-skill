@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-05-31 02:21:32 CST
+
+- Rechecked the submission tracker first, then searched fresh public GitHub results for additional AI agent skill, Claude skill, Cursor skill, Codex skill, OpenClaw skill, `SKILL.md` directories, registries, and marketplaces; the only genuinely fresh candidate worth logging was `ZeroLu/awesome-openclaw`.
+- Logged `ZeroLu/awesome-openclaw` as deferred because it has moderate adoption but the surfaced repository currently reads as a single-README OpenClaw resource guide without a clearly surfaced contribution guide or repo-specific acceptance rules for third-party listings.
+- Confirmed GitHub submission remains blocked because `gh auth status` still reports the `bin1874` token is invalid, and `tool_search` returned no automation-management tool that could disable the already-overrun hourly automation.
+
 ## 2026-05-31 01:20:45 CST
 
 - Rechecked the submission tracker first, then searched fresh public GitHub results for additional AI agent skill, Claude skill, Cursor skill, Codex skill, OpenClaw skill, `SKILL.md` directories, registries, and marketplaces; the only genuinely fresh candidate worth logging was `glebis/claude-skills`.
