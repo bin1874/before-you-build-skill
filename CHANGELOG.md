@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-05-31 03:22:02 CST
+
+- Rechecked the submission tracker first, then searched fresh public GitHub results for additional AI agent skill, Claude skill, Cursor skill, Codex skill, OpenClaw skill, `SKILL.md` directories, registries, and marketplaces; the search mostly resurfaced already-logged venues and did not uncover a stronger genuinely new submission target.
+- Logged `agentskills/agentskills` as skipped because it is the Agent Skills specification/documentation repository rather than a third-party listing venue, and logged `hutchic/.cursor` as skipped because it is a personal Cursor configuration/docs repository rather than a community marketplace.
+- Confirmed GitHub submission remains blocked because `gh auth status` still reports the `bin1874` token is invalid, and `tool_search` still exposes no automation-management tool that can disable the already-overrun hourly automation.
+
 ## 2026-05-31 02:21:32 CST
 
 - Rechecked the submission tracker first, then searched fresh public GitHub results for additional AI agent skill, Claude skill, Cursor skill, Codex skill, OpenClaw skill, `SKILL.md` directories, registries, and marketplaces; the only genuinely fresh candidate worth logging was `ZeroLu/awesome-openclaw`.
