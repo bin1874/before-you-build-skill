@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-05-30 14:05:33 CST
+
+- Rechecked the submission tracker first, then searched additional public GitHub pages for cross-agent skill registries, Claude/Codex/Cursor/OpenClaw marketplaces, and `SKILL.md` collections; the search mostly resurfaced already-logged blocked targets such as `tech-leads-club/agent-skills`, `openai/skills`, `github/awesome-copilot`, and `product-on-purpose/pm-skills`, so no stronger genuinely new outreach venue surfaced.
+- Logged `24601/surreal-skills` as skipped because it is a high-quality but single-product SurrealDB skill package already published to registries rather than a broader public directory or marketplace for third-party promotion.
+- Confirmed GitHub submission remains blocked because `gh auth status` still reports the `bin1874` token is invalid, and `tool_search` still exposes no automation-management tool to disable the already-overrun hourly automation.
+
 ## 2026-05-30 13:03:55 CST
 
 - Rechecked the submission tracker first, then searched additional public GitHub pages and topic results for AI agent skill registries, Claude/Codex/Cursor/OpenClaw marketplaces, and `SKILL.md` collections; no stronger genuinely new outreach venue surfaced beyond the existing blocked backlog.

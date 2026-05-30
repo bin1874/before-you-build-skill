@@ -1,6 +1,6 @@
 # Promotion Submissions
 
-Last updated: 2026-05-30 13:03:55 CST
+Last updated: 2026-05-30 14:05:33 CST
 
 This file tracks public promotion and directory submission attempts for Before You Build Skill.
 
@@ -57,6 +57,7 @@ This file tracks public promotion and directory submission attempts for Before Y
 
 | Channel | Type | Status | Link | Notes |
 |---|---|---|---|---|
+| 2026-05-30 14:05:33 CST | No stronger new target found | Rechecked `docs/SUBMISSIONS.md` first to avoid duplicates, then searched additional public GitHub pages for cross-agent skill registries, Claude/Codex/Cursor/OpenClaw marketplaces, and `SKILL.md` collections. The search mostly resurfaced already-logged blocked targets such as `tech-leads-club/agent-skills`, `openai/skills`, `github/awesome-copilot`, and `product-on-purpose/pm-skills`, so no stronger genuinely new outreach venue surfaced. Logged `24601/surreal-skills` as skipped because it is a high-quality but single-product SurrealDB skill package already published to registries rather than a broader public directory or marketplace for third-party promotion. No submission could be made because `gh auth status` still reports the `bin1874` token is invalid, and `tool_search` still exposes no automation-management tool to disable the already-overrun hourly automation. |
 | 2026-05-30 12:03:37 CST | No stronger new target found | Rechecked `docs/SUBMISSIONS.md` first to avoid duplicates, then searched additional public GitHub pages for agent-skill registries, Claude/Codex/Cursor/OpenClaw marketplaces, and `SKILL.md` collections. The search mostly resurfaced already-logged targets such as `OpenHands/extensions`, `OneWave-AI/claude-skills`, `dotnet/skills`, and `seb1n/awesome-ai-agent-skills`; no stronger genuinely new outreach venue surfaced. The only newly surfaced repositories worth explicit rejection were `claude-office-skills/skills`, which remains too office-document-execution-specific for this cross-agent product-validation skill, and `runkids/skillshare`, which remains a skill sync utility rather than a third-party listing destination. No submission could be made because `gh auth status` still reports the `bin1874` token is invalid, and `tool_search` still exposes no automation-management tool to disable the already-overrun hourly automation. |
 | GitHub release | Release | Published | https://github.com/bin1874/before-you-build-skill/releases/tag/v0.1.1 | Published after README, template, and public-case example improvements. |
 | GitHub Discussions | Repository setting | Enabled | https://github.com/bin1874/before-you-build-skill/discussions | Enabled for community idea reviews and compatibility notes. |
@@ -320,6 +321,7 @@ This file tracks public promotion and directory submission attempts for Before Y
 | obviousworks/Claude-AI-skills-collection-2026 | Skipped | The surfaced repository is loosely relevant, but it currently shows only a thin README and 2 commits, which is too little catalog depth and stewardship to justify outbound promotion over the stronger blocked backlog. | Do not submit unless the repository develops clearer maintainer activity, acceptance guidance, and broader community adoption. |
 | cblecker/claude-plugins | Skipped | The surfaced README explicitly describes the repository as a personal Claude Code plugin collection, and the public repo currently shows only 3 stars and 1 fork, so it does not clear the automation's no-personal-repo-spam or quality bar for outbound promotion. | Do not submit unless the repository develops clearer shared-maintainer stewardship, stronger adoption, and an explicit third-party intake path. |
 | iflytek/skillhub | Skipped | The surfaced README positions the project as self-hosted registry software for enterprise skill publishing, versioning, and governance rather than a public GitHub directory or marketplace that accepts external repository listings. | Do not submit unless the project adds a first-party public catalog or documented third-party listing workflow. |
+| 24601/surreal-skills | Skipped | The repository is high quality and contribution-friendly, but it is a single SurrealDB-focused skill package already published to external registries rather than a broader public directory or marketplace for third-party skill discovery. | Do not submit unless the maintainers add a documented external catalog or marketplace intake path. |
 
 ## Reusable Metadata
 
