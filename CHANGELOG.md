@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-05-31 00:20:06 CST
+
+- Rechecked the submission tracker first, then searched fresh public GitHub results for additional AI agent skill, Claude skill, Cursor skill, Codex skill, OpenClaw skill, `SKILL.md` directories, registries, and marketplaces; the only genuinely fresh candidate worth logging was `aiskillstore/marketplace`.
+- Logged `aiskillstore/marketplace` as skipped because its README routes third-party submissions through `skillstore.io/submit` and automated off-GitHub review rather than a GitHub issue or pull-request flow, which does not fit this automation's required `gh`-based submission path.
+- Confirmed GitHub submission remains blocked because `gh auth status` still reports the `bin1874` token is invalid, and `tool_search` still did not expose an automation-management tool that could disable the already-overrun hourly automation.
+
 ## 2026-05-30 23:18:47 CST
 
 - Rechecked the submission tracker first, then searched fresh public GitHub results for additional AI agent skill, Claude skill, Cursor skill, Codex skill, OpenClaw skill, `SKILL.md` directories, registries, and marketplaces; the strongest genuinely new target this pass was `ZeroPointRepo/awesome-hermes-skills`.
