@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-05-30 17:10:03 CST
+
+- Rechecked the submission tracker first, then searched fresh public GitHub results for additional Codex, Claude, Cursor, OpenClaw, and cross-agent `SKILL.md` directories; no stronger genuinely new outreach venue surfaced beyond the existing blocked backlog.
+- Logged `togethercomputer/skills` as deferred because it is an active contribution-friendly repository, but it is tightly vendor-scoped to Together AI platform workflows rather than broad pre-build product-validation guidance.
+- Confirmed GitHub submission remains blocked because `gh auth status` still reports the `bin1874` token is invalid, and no automation-management tool is exposed in this session to disable the already-overrun hourly automation.
+
 ## 2026-05-30 16:08:05 CST
 
 - Rechecked the submission tracker first, then searched fresh public GitHub results for additional Codex, Claude, Cursor, OpenClaw, and cross-agent `SKILL.md` directories; no stronger genuinely new outreach venue surfaced beyond the existing blocked backlog.
