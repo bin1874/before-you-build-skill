@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-06-01 00:43:17 CST
+
+- Re-reviewed the existing GitHub promotion backlog now that `gh` authentication is working again, and prioritized high-fit repositories by contribution clarity, product-skill fit, and risk of low-quality outreach.
+- Submitted a PR to `proflead/codex-skills-library` adding a concise `before-you-build` Codex planning skill.
+- Opened skill proposal issues for `product-on-purpose/pm-skills` and `phuryn/pm-skills` according to their request-before-PR contribution rules.
+- Prepared and validated a `tech-leads-club/agent-skills` Decision Making skill contribution, pushed it to the fork branch, and opened an issue because GitHub rejected cross-repo PR creation for the fork.
+
 ## 2026-05-31 09:30:50 CST
 
 - Rechecked the submission tracker first, then searched fresh public GitHub results for additional AI agent skill, Claude skill, Cursor skill, Codex skill, OpenClaw skill, `SKILL.md` directories, registries, and marketplaces; the search mostly resurfaced already-logged venues and did not uncover a stronger genuinely new submission target.
