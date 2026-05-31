@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-05-31 08:29:17 CST
+
+- Rechecked the submission tracker first, then searched fresh public GitHub results for additional AI agent skill, Claude skill, Cursor skill, Codex skill, OpenClaw skill, `SKILL.md` directories, registries, and marketplaces; the strongest genuinely fresh target this pass was `LHL3341/awesome-claws`.
+- Logged `LHL3341/awesome-claws` as blocked because it is a contribution-friendly OpenClaw ecosystem list with a visible `Contributing` section and explicit acceptance criteria for real-world, actively maintained resources.
+- Confirmed GitHub submission remains blocked because `gh auth status` still reports the `bin1874` token is invalid, GitHub CLI still cannot reach `api.github.com`, and `tool_search` still does not expose any automation-management tool that can disable the already-overrun hourly automation.
+
 ## 2026-05-31 07:27:36 CST
 
 - Rechecked the submission tracker first, then searched fresh public GitHub results for additional AI agent skill, Claude skill, Cursor skill, Codex skill, OpenClaw skill, `SKILL.md` directories, registries, and marketplaces; the strongest genuinely fresh target this pass was `rohitg00/awesome-openclaw`.
