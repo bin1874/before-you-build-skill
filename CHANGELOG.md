@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-06-01 01:04:12 CST
+
+- Continued GitHub ecosystem promotion without waiting for the previous four submissions, while still skipping the highest-gate official repositories such as OpenAI, Anthropic, and GitHub's official catalog.
+- Submitted eight additional pull requests to skill directories and OpenClaw/Hermes/Codex ecosystem lists: `intellectronica/awesome-skills`, `RoggeOhta/awesome-codex-cli`, `EthanYolo01/Awesome-OpenClaw`, `LHL3341/awesome-claws`, `rohitg00/awesome-openclaw`, `ZeroPointRepo/awesome-hermes-skills`, `CommandCodeAI/agent-skills`, and `natea/ar-claude-skills`.
+- Opened twenty-seven additional GitHub proposal issues across cross-agent skill catalogs, PM/product-skill libraries, OpenClaw directories, Hermes directories, and agent marketplaces.
+- Verified all newly created pull requests are open after submission; `CommandCodeAI/agent-skills` also received a proposal issue after retrying a transient GitHub API timeout.
+
 ## 2026-06-01 00:43:17 CST
 
 - Re-reviewed the existing GitHub promotion backlog now that `gh` authentication is working again, and prioritized high-fit repositories by contribution clarity, product-skill fit, and risk of low-quality outreach.

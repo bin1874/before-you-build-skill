@@ -1,6 +1,6 @@
 # Promotion Submissions
 
-Last updated: 2026-06-01 00:43:17 CST
+Last updated: 2026-06-01 01:04:12 CST
 
 This file tracks public promotion and directory submission attempts for Before You Build Skill.
 
@@ -51,6 +51,41 @@ This file tracks public promotion and directory submission attempts for Before Y
 | product-on-purpose/pm-skills | GitHub issue | Submitted | https://github.com/product-on-purpose/pm-skills/issues/149 | Requested a `before-you-build` validation skill according to the repo's issue-first contribution model. |
 | phuryn/pm-skills | GitHub issue | Submitted | https://github.com/phuryn/pm-skills/issues/30 | Proposed a pre-build product risk review skill before adapting it to the repo's plugin layout. |
 | tech-leads-club/agent-skills | GitHub issue | Submitted | https://github.com/tech-leads-club/agent-skills/issues/125 | Prepared and validated a Decision Making skill on fork branch `bin1874:codex/add-before-you-build`; opened an issue because GitHub rejected cross-repo PR creation for the fork. |
+| intellectronica/awesome-skills | GitHub PR | Submitted | https://github.com/intellectronica/awesome-skills/pull/31 | Added the skill to `skills.yaml` and regenerated `skills.json` / `skills.html`. |
+| RoggeOhta/awesome-codex-cli | GitHub PR | Submitted | https://github.com/RoggeOhta/awesome-codex-cli/pull/66 | Added the project to the Codex CLI skills collection. |
+| EthanYolo01/Awesome-OpenClaw | GitHub PR | Submitted | https://github.com/EthanYolo01/Awesome-OpenClaw/pull/20 | Added `before-you-build` to the curated OpenClaw skills table. |
+| LHL3341/awesome-claws | GitHub PR | Submitted | https://github.com/LHL3341/awesome-claws/pull/17 | Added the project to the Skills & Tools section. |
+| rohitg00/awesome-openclaw | GitHub PR | Submitted | https://github.com/rohitg00/awesome-openclaw/pull/173 | Added a Notable Skills & Plugins entry with ClawHub and GitHub links. |
+| ZeroPointRepo/awesome-hermes-skills | GitHub PR | Submitted | https://github.com/ZeroPointRepo/awesome-hermes-skills/pull/3 | Added `before-you-build` to Productivity & Tasks. |
+| CommandCodeAI/agent-skills | GitHub issue | Submitted | https://github.com/CommandCodeAI/agent-skills/issues/14 | Proposed the skill after retrying a transient GitHub API timeout. |
+| CommandCodeAI/agent-skills | GitHub PR | Submitted | https://github.com/CommandCodeAI/agent-skills/pull/15 | Added a `skills/before-you-build/SKILL.md` package and README entry. |
+| natea/ar-claude-skills | GitHub PR | Submitted | https://github.com/natea/ar-claude-skills/pull/1 | Added a Product Team `before-you-build` skill; issues were disabled, so this used PR flow directly. |
+| agentscope-ai/QwenPaw | GitHub issue | Submitted | https://github.com/agentscope-ai/QwenPaw/issues/4841 | Proposed the skill for the QwenPaw skill ecosystem. |
+| w95/awesome-claude-corporate-skills | GitHub issue | Submitted | https://github.com/w95/awesome-claude-corporate-skills/issues/3 | Proposed the skill for the corporate/product skill catalog. |
+| AbsolutelySkilled/AbsolutelySkilled | GitHub issue | Submitted | https://github.com/AbsolutelySkilled/AbsolutelySkilled/issues/11 | Proposed the skill for the community skill catalog. |
+| hoodini/ai-agents-skills | GitHub issue | Submitted | https://github.com/hoodini/ai-agents-skills/issues/4 | Proposed the skill for the cross-agent skill collection. |
+| posit-dev/skills | GitHub issue | Submitted | https://github.com/posit-dev/skills/issues/65 | Proposed the skill for the public skills collection. |
+| letta-ai/skills | GitHub issue | Submitted | https://github.com/letta-ai/skills/issues/80 | Proposed the skill for the cross-agent shared skills repository. |
+| vadimcomanescu/codex-skills | GitHub issue | Submitted | https://github.com/vadimcomanescu/codex-skills/issues/5 | Proposed the skill for the Codex skills catalog. |
+| mxyhi/ok-skills | GitHub issue | Submitted | https://github.com/mxyhi/ok-skills/issues/7 | Proposed the skill for the curated cross-agent skills catalog. |
+| deanpeters/Product-Manager-Skills | GitHub issue | Submitted | https://github.com/deanpeters/Product-Manager-Skills/issues/11 | Proposed the skill for the PM/product-management skill framework. |
+| ComposioHQ/awesome-claude-skills | GitHub issue | Submitted | https://github.com/ComposioHQ/awesome-claude-skills/issues/971 | Proposed the skill for the Claude/Codex/Cursor skills directory. |
+| trailofbits/skills-curated | GitHub issue | Submitted | https://github.com/trailofbits/skills-curated/issues/33 | Requested review for inclusion in the curated skills marketplace. |
+| amanning3390/hermeshub | GitHub issue | Submitted | https://github.com/amanning3390/hermeshub/issues/100 | Proposed the skill for HermesHub. |
+| affaan-m/ECC | GitHub issue | Submitted | https://github.com/affaan-m/ECC/issues/2103 | Proposed the skill for the cross-harness skills system. |
+| simota/agent-skills | GitHub issue | Submitted | https://github.com/simota/agent-skills/issues/32 | Proposed the skill for the agent skills catalog. |
+| OneWave-AI/claude-skills | GitHub issue | Submitted | https://github.com/OneWave-AI/claude-skills/issues/3 | Proposed the skill for the Claude skills collection. |
+| netresearch/claude-code-marketplace | GitHub issue | Submitted | https://github.com/netresearch/claude-code-marketplace/issues/63 | Proposed the skill for the Claude Code marketplace. |
+| cosmicstack-labs/mercury-agent-skills | GitHub issue | Submitted | https://github.com/cosmicstack-labs/mercury-agent-skills/issues/3 | Proposed the skill for the Mercury/OpenClaw/Hermes skills registry. |
+| alvinreal/awesome-openclaw | GitHub issue | Submitted | https://github.com/alvinreal/awesome-openclaw/issues/42 | Proposed the skill for the OpenClaw ecosystem list. |
+| wshobson/agents | GitHub issue | Submitted | https://github.com/wshobson/agents/issues/565 | Proposed the skill for the multi-harness agentic plugin marketplace. |
+| OpenHands/extensions | GitHub issue | Submitted | https://github.com/OpenHands/extensions/issues/282 | Proposed the skill for the OpenHands extensions registry. |
+| addyosmani/agent-skills | GitHub issue | Submitted | https://github.com/addyosmani/agent-skills/issues/213 | Proposed the skill for the production-grade agent skills collection. |
+| VoltAgent/awesome-agent-skills | GitHub issue | Submitted | https://github.com/VoltAgent/awesome-agent-skills/issues/628 | Proposed the skill for the broad agent skills directory. |
+| VoltAgent/awesome-openclaw-skills | GitHub issue | Submitted | https://github.com/VoltAgent/awesome-openclaw-skills/issues/482 | Proposed inclusion using the existing ClawHub listing. |
+| clawdbot-ai/awesome-openclaw-skills-zh | GitHub issue | Submitted | https://github.com/clawdbot-ai/awesome-openclaw-skills-zh/issues/35 | Proposed the skill for the Chinese OpenClaw skills directory. |
+| AIPMAndy/awesome-openclaw-skills-CN | GitHub issue | Submitted | https://github.com/AIPMAndy/awesome-openclaw-skills-CN/issues/9 | Proposed the skill for the Chinese OpenClaw skills collection. |
+| Rito-w/awesome-openclaw-skills-zh | GitHub issue | Submitted | https://github.com/Rito-w/awesome-openclaw-skills-zh/issues/4 | Proposed the skill for the Chinese OpenClaw skills list. |
 | ForgeIndex | Directory form | Submitted | https://forgeindex.ai/ | Google Form returned "Your response has been recorded." |
 | ToolHunter | Directory form | Submitted | https://www.toolhunter.cc/submit | Submitted by the user after CAPTCHA. |
 | ToolShelf | Directory form | Submitted | https://toolshelf.dev/submit | Submitted by the user after sign-in. |
@@ -61,6 +96,7 @@ This file tracks public promotion and directory submission attempts for Before Y
 
 | Channel | Type | Status | Link | Notes |
 |---|---|---|---|---|
+| 2026-06-01 01:04:12 CST | Bulk GitHub submission pass | Submitted | https://github.com/intellectronica/awesome-skills/pull/31 | Continued promotion without waiting for prior feedback. Skipped only the highest-gate official repositories such as OpenAI, Anthropic, and GitHub's official catalog. Submitted eight PRs and twenty-seven issue proposals across Codex, Claude, OpenClaw, Hermes, PM/product, and cross-agent skill directories. |
 | 2026-06-01 00:43:17 CST | Submission pass completed | Submitted | https://github.com/proflead/codex-skills-library/pull/5 | Re-reviewed the existing blocked backlog after `gh` authentication became available again. Prioritized repositories by fit and contribution path instead of star count. Submitted one PR to `proflead/codex-skills-library`, opened skill proposal issues for `product-on-purpose/pm-skills` and `phuryn/pm-skills`, and opened `tech-leads-club/agent-skills` issue #125 after preparing a validated fork branch because GitHub rejected direct PR creation with a fork-permission error. |
 | 2026-05-31 09:30:50 CST | No suitable new target | Rechecked `docs/SUBMISSIONS.md` first to avoid duplicates, then searched fresh public GitHub results for additional AI agent skill, Claude skill, Cursor skill, Codex skill, OpenClaw skill, `SKILL.md` directories, registries, and marketplaces. The search mostly resurfaced already-logged venues such as `block/agent-skills`, `spencerpauly/awesome-cursor-skills`, `anthropics/skills`, `supabase/agent-skills`, `VoltAgent/awesome-openclaw-skills`, `dotnet/skills`, `MicrosoftDocs/Agent-Skills`, `jdrhyne/agent-skills`, `seb1n/awesome-ai-agent-skills`, `psenger/ai-agent-skills`, and `agent-skills-hub/agent-skills-hub`; no genuinely fresh repository cleared the quality, fit, and contribution-path bar for Before You Build. No submission could be made because `gh auth status` still reports the `bin1874` token is invalid, and there is no automation-management tool exposed in-session, so the local automation config was paused directly after this final intended pass. |
 | 2026-05-31 08:29:17 CST | Submission blocked | Rechecked `docs/SUBMISSIONS.md` first to avoid duplicates, then searched fresh public GitHub results for additional AI agent skill, Claude skill, Cursor skill, Codex skill, OpenClaw skill, `SKILL.md` directories, registries, and marketplaces. Confirmed `LHL3341/awesome-claws` as the strongest genuinely new target from this pass because its README presents it as a curated OpenClaw ecosystem list covering skills and tools, and its visible `Contributing` section explicitly welcomes additions that are actively maintained, relevant to OpenClaw-style assistants, and useful in real-world use cases. No submission could be made because `gh auth status` still reports the `bin1874` token is invalid, GitHub CLI still cannot reach `api.github.com`, and `tool_search` did not expose any automation-management tool that could disable the already-overrun hourly automation. |
