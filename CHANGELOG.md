@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-06-06 22:54:54 CST
+
+- Opened a focused PR to `OneWave-AI/claude-skills` after the maintainer confirmed the pre-build risk gate fit and requested a single-file contribution.
+- Submitted only `before-you-build/SKILL.md` in the OneWave fork branch `bin1874:codex/add-before-you-build-lite`, keeping this repository's official full skill package unchanged.
+- Updated `docs/SUBMISSIONS.md` to record the maintainer request, PR link, and boundary between the external lightweight adapter and the official Before You Build Skill.
+
 ## 2026-06-01 01:04:12 CST
 
 - Continued GitHub ecosystem promotion without waiting for the previous four submissions, while still skipping the highest-gate official repositories such as OpenAI, Anthropic, and GitHub's official catalog.

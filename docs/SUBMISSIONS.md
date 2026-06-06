@@ -1,6 +1,6 @@
 # Promotion Submissions
 
-Last updated: 2026-06-01 01:04:12 CST
+Last updated: 2026-06-06 22:54:54 CST
 
 This file tracks public promotion and directory submission attempts for Before You Build Skill.
 
@@ -74,7 +74,8 @@ This file tracks public promotion and directory submission attempts for Before Y
 | amanning3390/hermeshub | GitHub issue | Submitted | https://github.com/amanning3390/hermeshub/issues/100 | Proposed the skill for HermesHub. |
 | affaan-m/ECC | GitHub issue | Submitted | https://github.com/affaan-m/ECC/issues/2103 | Proposed the skill for the cross-harness skills system. |
 | simota/agent-skills | GitHub issue | Submitted | https://github.com/simota/agent-skills/issues/32 | Proposed the skill for the agent skills catalog. |
-| OneWave-AI/claude-skills | GitHub issue | Submitted | https://github.com/OneWave-AI/claude-skills/issues/3 | Proposed the skill for the Claude skills collection. |
+| OneWave-AI/claude-skills | GitHub issue | PR requested | https://github.com/OneWave-AI/claude-skills/issues/3 | Maintainer said the fit is good and requested a focused PR with `before-you-build/SKILL.md` only. |
+| OneWave-AI/claude-skills | GitHub PR | Submitted | https://github.com/OneWave-AI/claude-skills/pull/11 | Added a single-file `before-you-build` skill to the fork branch `bin1874:codex/add-before-you-build-lite`; this is an external lightweight adapter, not the official full skill package. |
 | netresearch/claude-code-marketplace | GitHub issue | Submitted | https://github.com/netresearch/claude-code-marketplace/issues/63 | Proposed the skill for the Claude Code marketplace. |
 | cosmicstack-labs/mercury-agent-skills | GitHub issue | Submitted | https://github.com/cosmicstack-labs/mercury-agent-skills/issues/3 | Proposed the skill for the Mercury/OpenClaw/Hermes skills registry. |
 | alvinreal/awesome-openclaw | GitHub issue | Submitted | https://github.com/alvinreal/awesome-openclaw/issues/42 | Proposed the skill for the OpenClaw ecosystem list. |
@@ -96,6 +97,7 @@ This file tracks public promotion and directory submission attempts for Before Y
 
 | Channel | Type | Status | Link | Notes |
 |---|---|---|---|---|
+| 2026-06-06 22:54:54 CST | OneWave focused PR | Submitted | https://github.com/OneWave-AI/claude-skills/pull/11 | Opened the focused PR requested in issue #3 after the maintainer accepted the fit. Kept the official full package unchanged and submitted only `before-you-build/SKILL.md` in the OneWave fork branch. |
 | 2026-06-01 01:04:12 CST | Bulk GitHub submission pass | Submitted | https://github.com/intellectronica/awesome-skills/pull/31 | Continued promotion without waiting for prior feedback. Skipped only the highest-gate official repositories such as OpenAI, Anthropic, and GitHub's official catalog. Submitted eight PRs and twenty-seven issue proposals across Codex, Claude, OpenClaw, Hermes, PM/product, and cross-agent skill directories. |
 | 2026-06-01 00:43:17 CST | Submission pass completed | Submitted | https://github.com/proflead/codex-skills-library/pull/5 | Re-reviewed the existing blocked backlog after `gh` authentication became available again. Prioritized repositories by fit and contribution path instead of star count. Submitted one PR to `proflead/codex-skills-library`, opened skill proposal issues for `product-on-purpose/pm-skills` and `phuryn/pm-skills`, and opened `tech-leads-club/agent-skills` issue #125 after preparing a validated fork branch because GitHub rejected direct PR creation with a fork-permission error. |
 | 2026-05-31 09:30:50 CST | No suitable new target | Rechecked `docs/SUBMISSIONS.md` first to avoid duplicates, then searched fresh public GitHub results for additional AI agent skill, Claude skill, Cursor skill, Codex skill, OpenClaw skill, `SKILL.md` directories, registries, and marketplaces. The search mostly resurfaced already-logged venues such as `block/agent-skills`, `spencerpauly/awesome-cursor-skills`, `anthropics/skills`, `supabase/agent-skills`, `VoltAgent/awesome-openclaw-skills`, `dotnet/skills`, `MicrosoftDocs/Agent-Skills`, `jdrhyne/agent-skills`, `seb1n/awesome-ai-agent-skills`, `psenger/ai-agent-skills`, and `agent-skills-hub/agent-skills-hub`; no genuinely fresh repository cleared the quality, fit, and contribution-path bar for Before You Build. No submission could be made because `gh auth status` still reports the `bin1874` token is invalid, and there is no automation-management tool exposed in-session, so the local automation config was paused directly after this final intended pass. |
