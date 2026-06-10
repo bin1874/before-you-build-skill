@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-06-10 12:22:20 CST
+
+- Opened `cosmicstack-labs/mercury-agent-skills` PR #7 after rechecking that the upstream repository still did not contain `before-you-build`, `bin1874`, or a ClawHub entry.
+- Opened `VoltAgent/awesome-openclaw-skills` PR #498 after rechecking that no existing entry or duplicate PR existed, using the required ClawHub link and a one-line README-only change.
+- Posted follow-up comments on `OneWave-AI/claude-skills` PR #11 and `yzfly/awesome-claude-skills-zh` Issue #5 after verifying neither repository had already merged or listed the skill.
+- Updated `docs/SUBMISSIONS.md` so the promotion tracker reflects the new PRs, follow-ups, and no-longer-blocked submission paths.
+
 ## 2026-06-06 22:54:54 CST
 
 - Opened a focused PR to `OneWave-AI/claude-skills` after the maintainer confirmed the pre-build risk gate fit and requested a single-file contribution.
