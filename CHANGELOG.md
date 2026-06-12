@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-06-12 19:21:13 CST
+
+- Responded to `junminhong/awesome-agent-skills` PR #6 review after rechecking that the PR was still open and not already accepted.
+- Amended the PR to remove the repo-local `SKILL.md` and leave only `README.md` / `README_ZH.md` updates linking to the existing Before You Build Skill repository.
+- Updated `docs/SUBMISSIONS.md` with the review-response status and follow-up record.
+
 ## 2026-06-10 12:22:20 CST
 
 - Opened `cosmicstack-labs/mercury-agent-skills` PR #7 after rechecking that the upstream repository still did not contain `before-you-build`, `bin1874`, or a ClawHub entry.

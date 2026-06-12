@@ -1,6 +1,6 @@
 # Promotion Submissions
 
-Last updated: 2026-06-10 12:22:20 CST
+Last updated: 2026-06-12 19:21:13 CST
 
 This file tracks public promotion and directory submission attempts for Before You Build Skill.
 
@@ -29,7 +29,7 @@ This file tracks public promotion and directory submission attempts for Before Y
 | frostant/awesome-claude-skills | GitHub issue | Submitted | https://github.com/frostant/awesome-claude-skills/issues/4 | Suggested the skill for a Chinese Claude Skills list. |
 | majiayu000/claude-skill-registry-core | GitHub issue | Submitted | https://github.com/majiayu000/claude-skill-registry-core/issues/176 | Suggested the skill for a Claude skill registry that accepts issue submissions. |
 | jaydeepkarale/awesome-agent-skills | GitHub PR | Submitted | https://github.com/jaydeepkarale/awesome-agent-skills/pull/2 | Added a multi-agent skill folder and README entry. |
-| junminhong/awesome-agent-skills | GitHub PR | Submitted | https://github.com/junminhong/awesome-agent-skills/pull/6 | Added a Codex business/marketing skill entry. |
+| junminhong/awesome-agent-skills | GitHub PR | Updated after review | https://github.com/junminhong/awesome-agent-skills/pull/6 | Maintainer requested a README-only link because the full skill already lives in its own repository; amended the PR so it now updates only `README.md` and `README_ZH.md`, then posted a follow-up comment. |
 | LessUp/awesome-claude-skills-zh | GitHub PR | Submitted | https://github.com/LessUp/awesome-claude-skills-zh/pull/1 | Updated the PR to only change `README.md`; current CI failure appears to come from the repository workflow expecting English `## Skills` / `## Getting Started` headings that the Chinese README does not have. |
 | ComposioHQ/awesome-codex-skills | GitHub PR | Submitted | https://github.com/ComposioHQ/awesome-codex-skills/pull/84 | Added an external Codex skill entry with install command. |
 | doanbactam/agent-skills-directory | GitHub issue | Submitted | https://github.com/doanbactam/agent-skills-directory/issues/56 | Requested indexing in a SKILL.md directory for coding assistants. |
@@ -99,6 +99,7 @@ This file tracks public promotion and directory submission attempts for Before Y
 
 | Channel | Type | Status | Link | Notes |
 |---|---|---|---|---|
+| 2026-06-12 19:21:13 CST | junminhong PR review response | Updated after review | https://github.com/junminhong/awesome-agent-skills/pull/6 | Rechecked the PR was still open and not already accepted, amended the PR to remove the repo-local `SKILL.md`, confirmed GitHub now shows only `README.md` and `README_ZH.md` changes, and replied to the maintainer. |
 | 2026-06-10 12:22:20 CST | Accepted-channel follow-up pass | Submitted | https://github.com/cosmicstack-labs/mercury-agent-skills/pull/7 | Rechecked each target before acting. Opened `cosmicstack-labs/mercury-agent-skills` PR #7, opened `VoltAgent/awesome-openclaw-skills` PR #498, followed up on `OneWave-AI/claude-skills` PR #11, and asked `yzfly/awesome-claude-skills-zh` whether a PR is still needed. |
 | 2026-06-06 22:54:54 CST | OneWave focused PR | Submitted | https://github.com/OneWave-AI/claude-skills/pull/11 | Opened the focused PR requested in issue #3 after the maintainer accepted the fit. Kept the official full package unchanged and submitted only `before-you-build/SKILL.md` in the OneWave fork branch. |
 | 2026-06-01 01:04:12 CST | Bulk GitHub submission pass | Submitted | https://github.com/intellectronica/awesome-skills/pull/31 | Continued promotion without waiting for prior feedback. Skipped only the highest-gate official repositories such as OpenAI, Anthropic, and GitHub's official catalog. Submitted eight PRs and twenty-seven issue proposals across Codex, Claude, OpenClaw, Hermes, PM/product, and cross-agent skill directories. |
