@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-06-12 19:29:38 CST
+
+- Opened `wshobson/agents` PR #578 after the maintainer confirmed the markdown-only pre-mortem skill was a good fit and welcomed a focused PR.
+- Added a single-skill `before-you-build` plugin under `plugins/`, refreshed generated marketplace metadata, and updated the public plugin and skill catalog counts.
+- Updated `docs/SUBMISSIONS.md` to mark issue #565 as PR-opened and record the new PR link plus validation notes.
+
 ## 2026-06-12 19:21:13 CST
 
 - Responded to `junminhong/awesome-agent-skills` PR #6 review after rechecking that the PR was still open and not already accepted.

@@ -1,6 +1,6 @@
 # Promotion Submissions
 
-Last updated: 2026-06-12 19:21:13 CST
+Last updated: 2026-06-12 19:29:38 CST
 
 This file tracks public promotion and directory submission attempts for Before You Build Skill.
 
@@ -80,7 +80,8 @@ This file tracks public promotion and directory submission attempts for Before Y
 | cosmicstack-labs/mercury-agent-skills | GitHub issue | PR opened | https://github.com/cosmicstack-labs/mercury-agent-skills/issues/3 | Maintainer replied positively; rechecked upstream for duplicates, then opened a product-category PR. |
 | cosmicstack-labs/mercury-agent-skills | GitHub PR | Submitted | https://github.com/cosmicstack-labs/mercury-agent-skills/pull/7 | Added a repo-native `categories/product/before-you-build/SKILL.md` plus `CATALOG.md` entry after confirming the skill was not already listed. |
 | alvinreal/awesome-openclaw | GitHub issue | Submitted | https://github.com/alvinreal/awesome-openclaw/issues/42 | Proposed the skill for the OpenClaw ecosystem list. |
-| wshobson/agents | GitHub issue | Submitted | https://github.com/wshobson/agents/issues/565 | Proposed the skill for the multi-harness agentic plugin marketplace. |
+| wshobson/agents | GitHub issue | PR opened | https://github.com/wshobson/agents/issues/565 | Maintainer welcomed a focused PR and said a single-skill plugin under `plugins/` would fit. |
+| wshobson/agents | GitHub PR | Submitted | https://github.com/wshobson/agents/pull/578 | Added a focused `before-you-build` plugin, marketplace entries, generated Codex/Cursor metadata, and public catalog documentation after rechecking for duplicate PRs. |
 | OpenHands/extensions | GitHub issue | Submitted | https://github.com/OpenHands/extensions/issues/282 | Proposed the skill for the OpenHands extensions registry. |
 | addyosmani/agent-skills | GitHub issue | Submitted | https://github.com/addyosmani/agent-skills/issues/213 | Proposed the skill for the production-grade agent skills collection. |
 | VoltAgent/awesome-agent-skills | GitHub issue | Submitted | https://github.com/VoltAgent/awesome-agent-skills/issues/628 | Proposed the skill for the broad agent skills directory. |
@@ -99,6 +100,7 @@ This file tracks public promotion and directory submission attempts for Before Y
 
 | Channel | Type | Status | Link | Notes |
 |---|---|---|---|---|
+| 2026-06-12 19:29:38 CST | wshobson PR after maintainer approval | Submitted | https://github.com/wshobson/agents/pull/578 | Rechecked issue #565 and open PRs before acting. Opened a focused single-skill plugin PR under `plugins/before-you-build`, ran `make generate-all`, `make validate STRICT=1`, `git diff --check`, and `plugin-eval` quick scoring; `make garden STRICT=1` still reports unrelated pre-existing Codex size warnings outside the new plugin. |
 | 2026-06-12 19:21:13 CST | junminhong PR review response | Updated after review | https://github.com/junminhong/awesome-agent-skills/pull/6 | Rechecked the PR was still open and not already accepted, amended the PR to remove the repo-local `SKILL.md`, confirmed GitHub now shows only `README.md` and `README_ZH.md` changes, and replied to the maintainer. |
 | 2026-06-10 12:22:20 CST | Accepted-channel follow-up pass | Submitted | https://github.com/cosmicstack-labs/mercury-agent-skills/pull/7 | Rechecked each target before acting. Opened `cosmicstack-labs/mercury-agent-skills` PR #7, opened `VoltAgent/awesome-openclaw-skills` PR #498, followed up on `OneWave-AI/claude-skills` PR #11, and asked `yzfly/awesome-claude-skills-zh` whether a PR is still needed. |
 | 2026-06-06 22:54:54 CST | OneWave focused PR | Submitted | https://github.com/OneWave-AI/claude-skills/pull/11 | Opened the focused PR requested in issue #3 after the maintainer accepted the fit. Kept the official full package unchanged and submitted only `before-you-build/SKILL.md` in the OneWave fork branch. |
