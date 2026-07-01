@@ -4,7 +4,13 @@ Before You Build Skill works without an API key. The core package is local text 
 
 ## Option 1: Install with npx
 
-The npm installer copies this skill into the local directory used by each tool.
+The published npm package copies this skill into the local directory used by each tool.
+
+Package page:
+
+```text
+https://www.npmjs.com/package/before-you-build-skill
+```
 
 ```bash
 npx before-you-build-skill install codex

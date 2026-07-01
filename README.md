@@ -2,6 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Release](https://img.shields.io/github/v/release/bin1874/before-you-build-skill?include_prereleases)](https://github.com/bin1874/before-you-build-skill/releases)
+[![npm](https://img.shields.io/npm/v/before-you-build-skill)](https://www.npmjs.com/package/before-you-build-skill)
 [![GitHub stars](https://img.shields.io/github/stars/bin1874/before-you-build-skill)](https://github.com/bin1874/before-you-build-skill/stargazers)
 [![Website](https://img.shields.io/badge/website-beforeyoubuild.fyi-blue)](https://beforeyoubuild.fyi/en/skill)
 
@@ -87,7 +88,21 @@ Do not use it as a replacement for technical review, security review, architectu
 
 ## Quick Start
 
-Copy this into your AI coding tool:
+Install it into Codex:
+
+```bash
+npx before-you-build-skill install codex
+```
+
+Or install another local adapter:
+
+```bash
+npx before-you-build-skill install hermes
+npx before-you-build-skill install openclaw
+npx before-you-build-skill install gemini
+```
+
+Then start a request with:
 
 ```text
 Use before-you-build to review this idea before implementation:
@@ -130,7 +145,7 @@ The agent should return a short reality check with a verdict before it starts im
 
 ### One-command install
 
-Use the npm installer when you want the package copied into a local tool directory:
+Use the published npm package when you want the skill copied into a local tool directory:
 
 ```bash
 npx before-you-build-skill install codex
@@ -139,6 +154,12 @@ npx before-you-build-skill install cursor --path /path/to/project
 npx before-you-build-skill install openclaw
 npx before-you-build-skill install hermes
 npx before-you-build-skill install gemini
+```
+
+Package page:
+
+```text
+https://www.npmjs.com/package/before-you-build-skill
 ```
 
 To install local adapters for every supported target:

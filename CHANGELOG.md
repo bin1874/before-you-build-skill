@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-07-01 23:23:36 CST
+
+- Updated README and install docs after the npm package went live, adding the npm badge, package link, and npx-first quick start commands.
+
 ## 2026-07-01 22:47:46 CST
 
 - Normalized npm `bin` paths before first registry publish so `npx before-you-build-skill` keeps its executable entrypoint.
