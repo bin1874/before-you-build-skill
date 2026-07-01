@@ -1,6 +1,6 @@
 {
   "name": "before-you-build-skill",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Install the Before You Build Skill for AI coding tools.",
   "license": "MIT",
   "type": "module",

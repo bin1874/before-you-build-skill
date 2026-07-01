@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-07-01 23:34:17 CST
+
+- Reviewed the live website and repository install-copy changes, then tightened the README compatibility table so npx is the primary setup path.
+- Fixed the Codex manual install path in `docs/INSTALL.md` to match the actual installer target, `~/.codex/skills/before-you-build/`.
+- Prepared patch release `0.1.2` so the npm package page can show the updated npx-first README instead of the stale `0.1.1` README.
+
 ## 2026-07-01 23:23:36 CST
 
 - Updated README and install docs after the npm package went live, adding the npm badge, package link, and npx-first quick start commands.

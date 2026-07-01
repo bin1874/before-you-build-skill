@@ -42,12 +42,12 @@ This skill adds a simple pre-build review step. Before the agent writes code, it
 
 | Tool | Recommended setup |
 |---|---|
-| Codex | Install the repository as a local skill folder when local skills are available. |
-| Claude Code | Use as a Claude Code skill or copy `SKILL.md` into project instructions. |
-| Cursor | Add `SKILL.md` as a project rule, then invoke it before implementation. |
+| Codex | Run `npx before-you-build-skill install codex`. |
+| Claude Code | Run `npx before-you-build-skill install claude`, or copy `SKILL.md` into project instructions. |
+| Cursor | Run `npx before-you-build-skill install cursor --path /path/to/project`. |
 | OpenClaw | Use OpenClaw's native Git install or the `npx` local installer. See [docs/OPENCLAW.md](docs/OPENCLAW.md). |
-| Hermes | Install the repository as a local skill under `~/.hermes/skills/`. |
-| Gemini CLI | Install a custom slash command plus a local skill reference. |
+| Hermes | Run `npx before-you-build-skill install hermes`. |
+| Gemini CLI | Run `npx before-you-build-skill install gemini` to create a slash command plus a local skill reference. |
 | Other agents | Paste the minimal prompt from [docs/INSTALL.md](docs/INSTALL.md). |
 
 ## What It Does

@@ -71,7 +71,7 @@ npx before-you-build-skill install codex
 Typical local layout:
 
 ```text
-~/.codex/skills/before-you-build-skill/
+~/.codex/skills/before-you-build/
   SKILL.md
   agents/
   references/
