@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-07-01 22:47:46 CST
+
+- Normalized npm `bin` paths before first registry publish so `npx before-you-build-skill` keeps its executable entrypoint.
+
 ## 2026-07-01 22:10:39 CST
 
 - Added an npm `npx before-you-build-skill` installer with local install targets for Codex, Claude Code, Cursor, OpenClaw, Hermes, and Gemini CLI.

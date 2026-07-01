@@ -5,8 +5,8 @@
   "license": "MIT",
   "type": "module",
   "bin": {
-    "before-you-build-skill": "./bin/before-you-build-skill.mjs",
-    "byb-skill": "./bin/before-you-build-skill.mjs"
+    "before-you-build-skill": "bin/before-you-build-skill.mjs",
+    "byb-skill": "bin/before-you-build-skill.mjs"
   },
   "files": [
     "SKILL.md",
