@@ -14,10 +14,10 @@ The canonical package remains this repository:
 https://github.com/bin1874/before-you-build-skill
 ```
 
-OpenClaw users can install the published ClawHub package:
+OpenClaw users can install directly from Git:
 
 ```bash
-openclaw skills install before-you-build
+openclaw skills install git:bin1874/before-you-build-skill@main --as before-you-build
 ```
 
 ## Why No Separate Fork
@@ -33,13 +33,19 @@ A separate OpenClaw-only fork would create duplicate maintenance work and increa
 
 ## Recommended OpenClaw Install
 
-If OpenClaw supports GitHub skill installation in the user's setup:
+Use OpenClaw's native Git installer when available:
 
 ```bash
-openclaw skills install github:bin1874/before-you-build-skill
+openclaw skills install git:bin1874/before-you-build-skill@main --as before-you-build
 ```
 
-If that form is not available, install manually:
+If you want a direct local copy instead, use the npm installer:
+
+```bash
+npx before-you-build-skill install openclaw
+```
+
+If neither installer is available, install manually:
 
 ```bash
 git clone https://github.com/bin1874/before-you-build-skill.git ~/.openclaw/skills/before-you-build
@@ -61,6 +67,12 @@ Then invoke it with:
 ```text
 Use before-you-build to review this idea before implementation:
 ...
+```
+
+After the skill is published on ClawHub, users can also install the registry package if it is available in their OpenClaw setup:
+
+```bash
+openclaw skills install @bin1874/before-you-build
 ```
 
 ## Suggested ClawHub Listing

@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-07-01 22:10:39 CST
+
+- Added an npm `npx before-you-build-skill` installer with local install targets for Codex, Claude Code, Cursor, OpenClaw, Hermes, and Gemini CLI.
+- Added Gemini CLI slash-command setup that writes `before-you-build.toml` and stores the full skill package as local reference material.
+- Updated README, install notes, and OpenClaw guidance to document the new `npx` flow while keeping OpenClaw's native Git install path.
+
 ## 2026-06-12 19:29:38 CST
 
 - Opened `wshobson/agents` PR #578 after the maintainer confirmed the markdown-only pre-mortem skill was a good fit and welcomed a focused PR.
