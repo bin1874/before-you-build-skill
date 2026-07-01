@@ -34,6 +34,7 @@ It does not build your app. It makes the agent pause first and ask why the idea 
 Use it before starting a product, adding a feature, or turning an AI demo into a SaaS.
 
 GitHub: https://github.com/bin1874/before-you-build-skill
+npx: npx before-you-build-skill install codex
 ```
 
 ## Longer Post
@@ -56,6 +57,60 @@ Before the agent writes code, it reviews:
 It works without an API key. Case Memory is optional.
 
 GitHub: https://github.com/bin1874/before-you-build-skill
+npm: https://www.npmjs.com/package/before-you-build-skill
+```
+
+## Launch Copy After npm Release
+
+### X / Twitter
+
+```text
+I published Before You Build Skill on npm.
+
+It is a small open-source skill for AI coding agents.
+
+The point is simple: before Codex, Claude Code, Cursor, Hermes, OpenClaw, or Gemini CLI starts implementing, the agent should first ask why the idea might fail.
+
+Install:
+npx before-you-build-skill install codex
+
+Other targets:
+npx before-you-build-skill install claude
+npx before-you-build-skill install cursor --path /path/to/project
+npx before-you-build-skill install openclaw
+npx before-you-build-skill install hermes
+npx before-you-build-skill install gemini
+
+GitHub: https://github.com/bin1874/before-you-build-skill
+npm: https://www.npmjs.com/package/before-you-build-skill
+```
+
+### Hacker News / Reddit / Indie Hackers
+
+```text
+I built Before You Build Skill, an open-source pre-build risk check for AI coding agents.
+
+AI coding tools make it much faster to implement an idea, but they also make it easier to spend time polishing the wrong thing. This skill asks the agent to pause before implementation and review demand, distribution, pricing, retention, trust, and workflow risk.
+
+It is not a startup oracle and it does not replace user research. It is a small guardrail before starting a product, feature, AI app, SaaS idea, or side project.
+
+It now installs through npm:
+
+npx before-you-build-skill install codex
+npx before-you-build-skill install claude
+npx before-you-build-skill install cursor --path /path/to/project
+npx before-you-build-skill install openclaw
+npx before-you-build-skill install hermes
+npx before-you-build-skill install gemini
+
+GitHub: https://github.com/bin1874/before-you-build-skill
+npm: https://www.npmjs.com/package/before-you-build-skill
+```
+
+### Product Hunt / Directory Blurb
+
+```text
+Before You Build Skill is an open-source pre-build risk review for AI coding agents. It helps Codex, Claude Code, Cursor, OpenClaw, Hermes, and Gemini CLI challenge product and feature assumptions before writing code. Use it to check demand, distribution, pricing, retention, trust, and workflow risk before turning an idea into implementation.
 ```
 
 ## Good Channels

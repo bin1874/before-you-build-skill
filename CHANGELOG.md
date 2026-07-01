@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-07-02 00:02:22 CST
+
+- Published `before-you-build-skill@0.1.2` to npm and verified that the `latest` dist-tag points to `0.1.2`.
+- Created GitHub release `v0.1.2 - npm npx installer` with release notes covering npm install, supported targets, and verification.
+- Added post-release promotion copy for X, Hacker News, Reddit, Indie Hackers, Product Hunt, and directory submissions.
+
 ## 2026-07-01 23:34:17 CST
 
 - Reviewed the live website and repository install-copy changes, then tightened the README compatibility table so npx is the primary setup path.
